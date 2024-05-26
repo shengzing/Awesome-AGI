@@ -48,6 +48,7 @@
 		- [AgentScope/modelscope  ](#agentscopemodelscope--)
 		- [joaomdmoura/crewAI ](#joaomdmouracrewai-)
 		- [jgravelle/AutoGroq ](#jgravelleautogroq-)
+		- [phidatahq/phidata ](#phidatahqphidata-)
 	- [工具](#工具)
 		- [run-llama/create-llama 构建 ](#run-llamacreate-llama-构建-)
 		- [AutomaApp/automa 工具 ](#automaappautoma-工具-)
@@ -73,8 +74,13 @@
 		- [wanglin2/mind-map 思维导图 ](#wanglin2mind-map-思维导图-)
 	- [算法](#算法)
 		- [naklecha/llama3-from-scratch ](#naklechallama3-from-scratch-)
+		- [lencx/Noi ](#lencxnoi-)
+		- [multimodal-art-projection/MAP-NEO ](#multimodal-art-projectionmap-neo-)
+		- [XuezheMax/megalodon](#xuezhemaxmegalodon)
+		- [danielmiessler/fabric 提示词 ](#danielmiesslerfabric-提示词-)
 	- [研究论文](#研究论文)
 	- [教程和课程](#教程和课程)
+		- [microsoft/llmops-workshop ](#microsoftllmops-workshop-)
 	- [社区和会议](#社区和会议)
 
 ## 简介
@@ -774,6 +780,25 @@ AutoGroq 是一个开源的 AI 助手，它能够快速、简单地自动生成�
 - **教育和易用性**: 提供了视频教程和在线演示，帮助用户快速上手 AutoGroq。
 - **技术创新**: AutoGroq 利用 Streamlit 库和各种 API 集成，展示了最新的 AI 和自然语言处理技术。
 
+
+### [phidatahq/phidata](https://github.com/phidatahq/phidata) ![GitHub stars](https://img.shields.io/github/stars/phidatahq/phidata?style=social)
+
+
+phidatahq/phidata 是一个用于构建具有长期记忆、上下文知识和执行任务能力的自治助手（即代理）的框架。
+
+**概述**
+
+phidatahq/phidata 是一个开源框架，旨在通过添加记忆、知识和工具来克服大型语言模型（LLMs）的局限性，如有限的上下文和无法执行操作的问题。该框架允许开发者创建能够存储聊天历史、访问业务相关信息以及执行 API 调用、发送电子邮件或查询数据库等操作的助手。phidata 支持使用 Streamlit、FastApi 或 Django 部署助手应用程序。安装过程简单，可以通过 pip 安装，并且提供了多个示例代码，如使用 LLMs 作为操作系统的中心处理器、构建自治引用答案生成器（RAG）、本地 RAG、投资研究助手、新闻文章编写、YouTube 视频摘要、研究助手等。此外，还有 Python 助手、SQL 分析助手、PDF 助手等，它们可以执行特定的任务，如编写和运行 Python 代码、使用 SQL 进行数据分析、从 PDF 文件中回答问题等。phidata 还提供了一个烹饪书示例库，用于展示更深入的代码示例和实践。项目鼓励社区贡献，并提供了贡献指南，同时还有一个公开的路线图，展示了未来的发展方向。
+
+**观点**
+
+- **问题与解决方案**: phidata 框架解决了 LLMs 有限上下文和无法执行操作的问题，通过添加记忆、知识和工具来增强助手的能力。
+- **组件与工作流程**: 助手的构建包括三个主要组件：工具（函数调用）、知识（向量数据库）和存储（数据库）。开发者可以通过创建助手、添加组件并使用所选的框架（如 Streamlit）来部署 AI 应用程序。
+- **易用性**: 提供了详细的安装指南和快速入门示例，使得开发者能够快速上手并创建具有特定功能的助手。
+- **实际应用**: 通过多种示例展示了 phidata 在不同场景下的应用，如构建 LLM 操作系统、本地 RAG、投资研究助手等，这些示例展示了框架的灵活性和强大功能。
+- **社区与支持**: 鼓励社区参与贡献，提供了贡献指南，并且有一个公开的路线图，表明项目的透明度和对未来发展的规划。
+- **商业应用**: 提供了构建 AI 产品的一般工作流程，包括构建定制的助手、连接产品到助手以及监控和改进 AI 产品，同时还提供了专门的支持和开发服务。
+
  ## 工具
 
 ### [run-llama/create-llama](https://github.com/run-llama/create-llama) 构建 ![GitHub stars](https://img.shields.io/github/stars/run-llama/create-llama?style=social)
@@ -1208,6 +1233,87 @@ AgentOps 的使命是将 AI 代理从原型推向生产环境，它是评估、�
 5. **最终的预测验证了模型的有效性**，通过预测出文化常识中的著名答案 "42"，展示了模型的预测能力和实现的正确性。
 6. **开源项目和社区支持对于推动研究和实践的进步至关重要**，作者鼓励读者通过社交媒体和捐赠来支持他的工作，以及参与到 A10 研究实验室的活动中来。
 
+### [lencx/Noi](https://github.com/lencx/Noi) ![GitHub stars](https://img.shields.io/github/stars/lencx/Noi?style=social)
+
+**Noi** 是一个基于 AI 的定制化浏览器，旨在通过探索、扩展和赋能，提升用户的数字体验。
+
+**摘要**
+
+**Noi** 是一个由 AI 增强的、高度可定制的浏览器，它旨在通过提供个性化的浏览体验、强大的提示管理、批量消息发送、多种主题选择、独特的缓存模式以及账户数据隔离等功能，来简化和优化用户的数字生活。用户可以通过添加自定义链接来同步自己的数据，并且可以选择不同的模式来使用 Noi。此外，Noi 支持多平台下载，包括 macOS、Windows 和 Linux。项目提供了详细的文档和常见问题解答，以帮助用户更好地理解和使用 Noi。目前，Noi 还没有实现自动更新功能，用户需要自行关注新版本的发布。Noi 的开发者鼓励用户参与到 Noi 的社区中来，分享经验和反馈，同时也提供了打赏的方式来支持项目。
+
+**观点**
+
+- **定制化体验**: Noi 允许用户创建自定义的浏览模式，添加任意 URL，并提供丰富的主题选择，以满足不同用户的需求。
+- **提升生产力**: 通过 Noi Ask 功能，用户可以同时向多个 AI 聊天发送批量消息，提高了与 AI 服务交互的效率。
+- **便捷的数据同步**: Noi 提供了同步数据的功能，允许用户通过自定义链接来同步自己的数据，并且支持多账户数据隔离。
+- **跨平台支持**: Noi 支持 macOS、Windows 和 Linux 系统，确保了广泛的用户基础可以使用。
+- **社区支持与参与**: Noi 鼓励用户参与到社区中来，提供反馈，并通过公众号进行交流和讨论。
+- **持续更新**: Noi 项目持续更新，包括新功能的添加和现有功能的改进，以提供更好的用户体验。
+- **技术细节**: Noi 的开发依赖于 JavaScript、TypeScript 和 CSS，这些技术的使用使得 Noi 能够提供流畅和现代化的用户界面。 
+
+
+### [multimodal-art-projection/MAP-NEO](https://github.com/multimodal-art-projection/MAP-NEO) ![GitHub stars](https://img.shields.io/github/stars/multimodal-art-projection/MAP-NEO?style=social)
+
+
+**MAP-NEO** 是一个完全开源的大型语言模型，包括预训练数据、数据处理流程、预训练脚本和对齐代码。该模型从头开始训练了4.5万亿英文和中文token，性能与LLaMA2 7B相当，在推理、数学和编程等挑战性任务中表现出与专有模型相当的性能。MAP-Neo 旨在实现LLM训练过程的完全透明度，为研究目的而进行了全面的发布，包括最终和中间检查点、自训练的分词器、预训练语料库和高效、稳定的优化过的预训练代码库。
+
+**观点**
+
+MAP-NEO 是一个开源的大型语言模型，它包括了预训练数据、数据处理管道（Matrix）、预训练脚本和对齐代码。该模型在4.5万亿英文和中文token上进行了从头开始的训练，并在各种基准测试中展示了与LLaMA2 7B相当的性能。MAP-Neo 在推理、数学和编程等任务中表现出色，超过了同类规模的其他模型。为了支持学术和商业界的更广泛和多样化的研究，MAP-NEO 公开发布了7B基础模型和一系列中间检查点。该项目遵循 MIT 许可证，并提供了 WeChat 和 Discord 的联系方式供进一步沟通。此外，还提供了数据和模型的下载链接，以及项目的一些技术细节，如编程语言的使用比例。
+
+**优点**
+
+- **开源性**: MAP-NEO 强调其完全开源的特性，包括预训练数据、数据处理流程、预训练脚本和对齐代码，旨在推动大型语言模型研究的透明度和可重复性。
+- **性能**: MAP-NEO 7B 在各种基准测试中表现出与 LLaMA2 7B 相当的性能，尤其在推理、数学和编程等挑战性任务中。
+- **研究支持**: 通过发布最终和中间检查点、自训练的分词器、预训练语料库和优化过的预训练代码库，MAP-NEO 支持更广泛的研究。
+- **许可和使用**: 项目遵循 MIT 许可证，允许商业使用，并提供了 WeChat 和 Discord 的联系方式供进一步沟通。
+- **数据和模型下载**: MAP-NEO 提供了 Huggingface 上的模型和数据下载链接，方便研究人员和开发者获取和使用。
+- **社区和沟通**: 项目鼓励社区参与和反馈，通过 WeChat 和 Discord 提供了沟通渠道。
+- **技术细节**: 项目主要使用 Python 语言（98.7%），并且没有发布任何版本或包。
+
+
+### [XuezheMax/megalodon](https://github.com/XuezheMax/megalodon)![GitHub stars](https://img.shields.io/github/stars/XuezheMax/megalodon?style=social)
+
+
+
+`https://github.com/XuezheMax/megalodon` 是 Megalodon 7B 模型的参考实现，提供了大型语言模型（LLM）的高效预训练和推理方法，支持无限制的上下文长度。
+
+**观点**
+
+该网页是 Megalodon 7B 模型的 GitHub 仓库，由 Xuezhe Ma 等人维护。Megalodon 是一个专注于提高大型语言模型（LLM）预训练和推理效率的项目，同时支持无限制的上下文长度。该项目于 2024 年 4 月 15 日向公众发布。仓库包含了必要的安装指南，包括 PyTorch、Apex 和 Fairscale 的安装步骤，以及如何安装 Megalodon 本身。此外，还提供了评估预训练 LLM 的方法，包括使用 `torchrun` 或 `slurm` 启动评估作业的示例脚本，以及如何准备评估数据。对于 LLM 预训练，网页提供了一个伪代码示例，展示了如何初始化模型、构建优化器和调度器，以及如何进行训练循环。该项目的参考文献包括了 Megalodon 和 Mega（Moving Average Equipped Gated Attention）的相关研究论文。该仓库目前没有发布任何版本，也没有发布任何包。项目的主要编程语言是 Cuda、Python 和 C++。
+
+**优点**
+
+- **Megalodon 项目旨在提供高效的大型语言模型（LLM）预训练和推理解决方案**，特别是在处理长文本上下文时。
+- **项目提供了详细的安装和使用指南**，包括如何安装必要的依赖项和如何设置评估和预训练作业。
+- **Megalodon 模型支持无限制的上下文长度**，这在处理大型文本数据时非常重要。
+- **该项目的研究成果已经在学术论文中得到了展示**，这表明了其在科学研究和工程实践中的应用潜力。
+- **GitHub 仓库包含了所有必要的代码和配置文件**，以便开发者和研究人员可以轻松地复现结果和进行二次开发。
+- **该项目还没有发布正式版本**，这意味着它可能仍在积极开发中，或者正在进行测试和完善。
+- **仓库的活动指标显示了项目的受欢迎程度**，例如星标数量、关注者数量和叉库数量。
+
+
+### [danielmiessler/fabric](https://github.com/danielmiessler/fabric) 提示词 ![GitHub stars](https://img.shields.io/github/stars/danielmiessler/fabric?style=social)
+
+`fabric`是一个开源框架，旨在利用AI增强人类能力，提供模块化解决方案，通过众包的AI提示集合，可以在任何地方应用这些解决方案。
+
+**观点**
+
+`fabric`框架旨在通过AI技术帮助人们解决具体问题题，它提供了一个基于Markdown的模板系统，用于创建和分享AI提示，即“Patterns”。这些Patterns可以用于各种生活和工作场景，如提取视频或播客中的精华内容、撰写文章、总结学术论文、创建AI艺术提示、评估内容质量等。`fabric`框架包括三个主要组件：Mill（服务器）、Patterns（AI使用案例）和Stitches（链式的Patterns），以及Loom（客户端应用）。用户可以通过命令行直接使用Patterns，也可以搭建自己的Fabric Mill服务器，或者使用Fabric提供的帮助工具，如`yt`命令从YouTube视频中提取字幕，`ts`命令使用OpenAI Whisper API对音频文件进行转录。此外，`fabric`还支持自定义Patterns，并且已经集成了PraisonAI，允许创建AI代理来执行任务。`fabric`项目由Daniel Miessler于2024年1月创立，并得到了多位贡献者的支持和贡献。
+
+**优点**
+
+1. **AI整合问题**: `fabric`框架的创建是为了解决AI技术在实际应用中的整合问题，即AI技术虽然强大，但难以融入日常生活中。
+2. **人类创造力的放大器**: `fabric`认为AI不是一个独立的实体，而是人类创造力的放大器，它的目的是帮助人类繁荣。
+3. **问题分解方法**: `fabric`的方法是将问题分解成小块，然后分别应用AI技术。
+4. **Patterns的重要性**: `fabric`强调Patterns的重要性，它们是预先设计的AI提示，可以帮助用户更好地利用AI技术。
+5. **开源和社区驱动**: `fabric`鼓励社区成员分享和贡献Patterns，以便不断完善和扩展框架的功能。
+6. **命令行优先**: `fabric`是命令行优先的，它允许用户直接在命令行中使用Patterns，同时也提供了搭建个人AI服务器的代码。
+7. **技术栈**: `fabric`使用Python作为主要编程语言，同时也包含了JavaScript、HTML和CSS等技术栈。
+8. **未来趋势**: `fabric`计划将框架从Python迁移到Go语言，以简化安装过程并提高性能。
+9. **社区贡献**: `fabric`项目得到了多位贡献者的支持，他们在项目结构、客户端开发、服务器基础设施和依赖管理等方面做出了贡献。
+
+
 ## 研究论文
 
 - **论文标题**：论文贡献和发现的简要总结。
@@ -1216,8 +1322,23 @@ AgentOps 的使命是将 AI 代理从原型推向生产环境，它是评估、�
 
 ## 教程和课程
 
-- **课程名称**：课程内容的简短描述。
-- **课程名称**：课程内容的简短描述。
+### [microsoft/llmops-workshop](https://github.com/microsoft/llmops-workshop) ![GitHub stars](https://img.shields.io/github/stars/microsoft/llmops-workshop?style=social)
+
+
+**Microsoft/llmops-workshop** 是一个在 GitHub 上的公开仓库，旨在教授如何使用 Azure AI、Azure Machine Learning Prompt Flow、Content Safety 和 Azure OpenAI 高效地构建、评估、监控和部署基于大型语言模型的解决方案。
+
+**概述**
+
+Microsoft/llmops-workshop 仓库是一个专注于大型语言模型操作（LLMOps）的工作坊，提供了一系列的课程内容，指导用户如何利用 Azure 的各项服务来构建和管理基于大型语言模型的解决方案。该工作坊包括工作坊内容、交付指南和更改日志。仓库鼓励社区贡献，并要求贡献者同意贡献者许可协议（CLA）。此外，该项目采用了 Microsoft Open Source 行为准则，并提供了关于如何报告安全问题的指南。该仓库包含了 Microsoft 的商标和徽标，使用受 Microsoft 商标和品牌指南的约束。目前，该仓库有 77 颗星（收藏）、7 名观察者和 31 个分支（fork），但尚未发布任何正式版本。主要使用的编程语言是 Jupyter Notebook（98.4%）和 Shell（1.6%）。
+
+**观点**
+
+- **教育目的**: 该仓库的主要目的是教育和指导用户如何使用 Azure 平台的工具和服务来操作和部ploy 大型语言模型。
+- **社区参与**: 项目鼓励并欢迎来自社区的贡献，同时提供了详细的贡献指南和许可协议流程。
+- **合规性和行为准则**: 该项目强调对 Microsoft 的商标和品牌使用规范，并采用了 Microsoft Open Source 行为准则，确保项目环境的积极性和包容性。
+- **安全性**: 提供了如何报告安全问题的指南，强调对项目安全性的重视。
+- **开源协作**: 通过 GitHub 的星标、观察者和分支功能，展示了项目的开源精神和社区的活跃参与。
+- **技术栈**: 仓库的内容主要以 Jupyter Notebook 形式提供，显示了该项目的技术偏好和应用场景。 
 
 ## 社区和会议
 
