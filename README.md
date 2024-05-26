@@ -20,7 +20,10 @@
 		- [rashadphz/farfalle ](#rashadphzfarfalle-)
 		- [weaviate/Verba ](#weaviateverba-)
 		- [vercel/ai-chatbot ](#vercelai-chatbot-)
+		- [Bin-Huang/chatbox 客户端 ](#bin-huangchatbox-客户端-)
 		- [mckaywrigley/chatbot-ui ](#mckaywrigleychatbot-ui-)
+		- [langflow-ai/langflow ](#langflow-ailangflow-)
+		- [Mintplex-Labs/anything-llm 客户端 ](#mintplex-labsanything-llm-客户端-)
 		- [dissorial/doc-chatbot ](#dissorialdoc-chatbot-)
 		- [wandb/openui 代码生成 ](#wandbopenui-代码生成-)
 		- [⭐️ OpenDevin/OpenDevin 代码生成 ](#️-opendevinopendevin-代码生成-)
@@ -34,6 +37,7 @@
 		- [janhq/jan](#janhqjan)
 		- [modelscope/swift  训练模型 ](#modelscopeswift--训练模型-)
 		- [modelscope/DashInfer 推理 ](#modelscopedashinfer-推理-)
+		- [unslothai/unsloth 微调 ](#unslothaiunsloth-微调-)
 	- [多模态](#多模态)
 		- [alibaba-damo-academy/FunClip视频剪辑 ](#alibaba-damo-academyfunclip视频剪辑-)
 		- [MoneyPrinterTurbo 视频合成](#moneyprinterturbo-视频合成)
@@ -42,6 +46,8 @@
 		- [lobehub/lobe-chat-agents ](#lobehublobe-chat-agents-)
 		- [cpacker/MemGPT ](#cpackermemgpt-)
 		- [AgentScope/modelscope  ](#agentscopemodelscope--)
+		- [joaomdmoura/crewAI ](#joaomdmouracrewai-)
+		- [jgravelle/AutoGroq ](#jgravelleautogroq-)
 	- [工具](#工具)
 		- [run-llama/create-llama 构建 ](#run-llamacreate-llama-构建-)
 		- [AutomaApp/automa 工具 ](#automaappautoma-工具-)
@@ -59,8 +65,12 @@
 		- [streamlit/streamlit](#streamlitstreamlit)
 		- [BasedHardware/OpenGlass 智能硬件 ](#basedhardwareopenglass-智能硬件-)
 		- [modelscope/data-juicer 数据处理 ](#modelscopedata-juicer-数据处理-)
+		- [Avdpro/ai2apps 应用构建 ](#avdproai2apps-应用构建-)
 		- [Kanaries/pygwalker 数据可视化 ](#kanariespygwalker-数据可视化-)
 		- [e-p-armstrong/augmentoolkit 数据集构建 ](#e-p-armstrongaugmentoolkit-数据集构建-)
+		- [AgentOps-AI/agentops 监控 ](#agentops-aiagentops-监控-)
+		- [nocobase/nocobase 无代码 ](#nocobasenocobase-无代码-)
+		- [wanglin2/mind-map 思维导图 ](#wanglin2mind-map-思维导图-)
 	- [算法](#算法)
 		- [naklecha/llama3-from-scratch ](#naklechallama3-from-scratch-)
 	- [研究论文](#研究论文)
@@ -276,6 +286,29 @@ Vercel 的 AI 聊天机器人项目是一个基于 Next.js 构建的、功能全
 - 本地环境的使用有助于提高开发效率：开发者可以即时看到代码变更的效果，便于调试和优化。
 - 项目的可定制性：提供在本地运行的能力使得开发者能够根据自己的需求对聊天机器人进行定制和扩展。
 
+### [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox) 客户端 ![GitHub stars](https://img.shields.io/github/stars/Bin-Huang/chatbox?style=social)
+
+
+Bin-Huang/chatbox 是一个用户友好的桌面客户端应用程序，用于与 AI 模型/大型语言模型（如 GPT、Claude、Gemini、Ollama 等）交互，支持 Windows、Mac 和 Linux 系统。
+
+**概述**
+
+Bin-Huang/chatbox 是一个开源项目，旨在提供一个简单易用的桌面客户端，用于与多种 AI 模型和大型语言模型进行交互。该项目支持多种操作系统，包括 Windows、MacOS 和 Linux。用户可以通过下载相应的安装包进行安装，并且还可以在 iOS 和 Android 设备上使用。项目的特点包括易用性、多平台支持以及社区驱动的持续开发和改进。项目创建者 Bin-Huang 最初是为了调试提示而开发 Chatbox，随着社区的反馈和贡献，该项目已经发展成为一个功能丰富的 AI 桌面应用程序，被用户用于各种场景，如日常聊天、专业工作辅助等。
+
+项目的贡献方式包括提交问题、拉取请求、功能请求、错误报告、文档修订、翻译和其他形式的贡献。项目的构建指南、常见问题解答（FAQ）、支付方式（包括 Paypal、微信支付和支付宝）以及许可证信息（GPL-3.0）都在项目的 GitHub 页面上提供。此外，项目还提供了一个星标历史记录，以及通过 GitHub Releases 页面提供的所有版本的下载链接。截至目前，该项目有 19k 个星标、121 个关注者和 1.9k 个叉子。
+
+**特点**
+
+- **用户友好性**: Chatbox 旨在提供一个简单易用的界面，让用户能够轻松地与 AI 模型交互。
+- **多平台支持**: 提供了针对 Windows、MacOS 和 Linux 的安装包，以及 iOS 和 Android 的支持。
+- **社区驱动**: 项目的发展和改进依赖于社区的反馈和贡献。
+- **开源精神**: Chatbox 是一个开源项目，鼓励各种形式的贡献，包括代码、文档和翻译等。
+- **持续更新**: 项目定期发布新版本，并提供了一个详细的版本历史记录。
+- **多功能性**: Chatbox 不仅可以用于开发和调试提示，还可以用于日常聊天和专业工作辅助。
+- **支付方式**: 提供了多种支付方式以支持项目的发展，包括 Paypal、微信支付和支付宝。
+- **许可证**: Chatbox 采用 GPL-3.0 许可证，确保了软件的自由传播和修改。
+
+
 ### [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) ![GitHub stars](https://img.shields.io/github/stars/mckaywrigley/chatbot-ui?style=social)
  是一个开源项目，旨在为每个 AI 模型提供聊天界面。
 
@@ -294,6 +327,43 @@ mckaywrigley/chatbot-ui 项目的 GitHub 页面展示了该项目的基本信息
 - 代码规范: 项目使用 .eslintrc.json 文件来确保代码质量和一致性。
 - 国际化支持: 通过 i18nConfig.js 文件，项目支持多语言，增强了其适用性和用户体验。
 
+
+
+### [langflow-ai/langflow](https://github.com/langflow-ai/langflow) ![GitHub stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social)
+
+`langflow-ai/langflow` 是一个开源项目，提供了一个动态图，其中每个节点都是一个可执行单元，旨在通过模块化和交互式设计促进快速实验和原型设计，推动创造力的边界。
+
+**概述**
+
+该网页是 `langflow-ai/langflow` 项目的 GitHub 页面，项目介绍指出 Langflow 是一个动态图，它通过模块化和交互式的设计，使得每个节点都成为一个可执行单元，从而促进了快速的实验和原型设计，推动了创新的边界。网页提供了创建列表的功能，用于组织个人星标的仓库，并允许用户为列表命名和描述。此外，网页还提供了反馈和报告错误的途径，因为列表功能目前处于测试阶段。项目的主页 `www.langflow.org` 提供了更多关于 Langflow 的信息。该项目采用 MIT 许可证，并有一项行为准则。截至目前，该项目有 18.2k 个星标、2.7k 个叉子和 157 个观察者。网页还展示了项目的分支和标签，并提供了通过 GitHub.dev 或 Codespace 打开项目的选项。用户可以通过 fork 项目来创建自己的副本，并且可以选择在 iOS 或 Android 设备上接收推送通知。
+
+**特点**
+
+- **Langflow 项目的核心是其动态图结构，它允许每个节点作为一个可执行单元，促进了高效的实验和原型设计。**
+- 项目鼓励社区参与和反馈，特别是对于其新的列表功能，这表明项目团队致力于持续改进和完善产品。
+- **Langflow 项目的开放性和模块化设计是其吸引力的关键，使其能够适应多种用户需求和创意实验。**
+- MIT 许可证的使用体现了项目的开源精神，鼓励代码的复用和分享。
+- 项目的流行度可以通过其在 GitHub 上的星标和叉子数量来体现，这表明它在开发者社区中具有一定的影响力和认可度。
+- 通过提供多种接入和参与项目的方式，如通过 GitHub.dev、Codespace 以及移动设备通知，Langflow 项目展现了其对用户体验的重视。
+
+### [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) 客户端 ![GitHub stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social)
+
+
+Mintplex-Labs/anything-llm 是一个集成了各种 AI 功能的桌面和 Docker 应用程序，支持全面的 RAG（Retrieve-Augmented-Generative）和 AI 代理功能。
+
+**摘要**
+
+Mintplex-Labs/anything-llm 是一个开源项目，旨在提供一个全能型的 AI 应用程序，支持桌面和 Docker 部署。该项目最新的提交是在 2024 年 5 月 24 日，实现了 Bing 搜索 API 的 Web 搜索提供者。项目拥有 14.9k stars 和 1.5k forks，并且有 118 名观察者。该应用程序支持语音转文本和文本转语音功能，并且可以通过 GitHub Codespaces 和 VSCode 的开发容器进行开发。最近的更新包括添加 Bing 搜索引擎、更新 README、实现 GitHub Codespaces 和 VSCode 开发容器的支持，以及对 Kubernetes 清单的更新。此外，还对项目的前端、服务端、图片和其他组件进行了更新和维护。项目遵循 MIT 许可证，并且提供了一个安全策略。用户可以通过 GitHub Sponsors 来资助该项目。
+
+**特点**
+
+- **集成 AI 功能**: 该项目提供了一个集成了多种 AI 功能的应用程序，包括 RAG 和 AI 代理功能，这使得用户能够利用 AI 进行增强型的生成和检索任务。
+- **多平台支持**: Mintplex-Labs/anything-llm 可以作为桌面应用程序运行，也可以通过 Docker 容器化部署，提供了灵活的使用选择。
+- **开源和社区驱动**: 作为一个开源项目，Mintplex-Labs/anything-llm 鼓励社区成员的参与和贡献，这体现在其高star和fork数量上。
+- **持续更新和维护**: 项目团队持续对代码进行更新和维护，包括添加新功能、优化现有功能以及修复问题。
+- **易于开发和部署**: 通过集成 GitHub Codespaces 和 VSCode 的开发容器，项目提供了一个简化的开发和部署流程。
+- **透明的安全和许可策略**: 该项目遵循 MIT 许可证，并且提供了一个明确的安全策略，确保了用户对项目的信任和安全性。
+- **资金支持机制**: 通过 GitHub Sponsors，用户和组织可以为该项目提供资金支持，以支持其持续发展。
 
 ### [dissorial/doc-chatbot](https://github.com/dissorial/doc-chatbot) ![GitHub stars](https://img.shields.io/github/stars/dissorial/doc-chatbot?style=social)
 
@@ -542,6 +612,24 @@ DashInfer 是一个轻量级的推理引擎，用于推理预训练大语言模�
 - DashInfer 的软件框架设计考虑了易于集成和使用，同时通过 conan 管理第三方依赖库，简化了编译和部署过程。
 
 
+### [unslothai/unsloth](https://github.com/unslothai/unsloth) 微调 ![GitHub stars](https://img.shields.io/github/stars/unslothai/unsloth?style=social)
+
+`unslothai/unsloth` 仓库提供了一个工具，用于加速 Llama 3、Mistral 和 Gemma LLMs 的微调过程，可以实现 2-5 倍的加速，同时减少 80% 的内存使用。
+
+**概述**
+
+`unslothai/unsloth` 仓库是一个公开的项目，用于优化大型语言模型（LLMs）的微调过程。该项目支持 Llama 3、Mistral 和 Gemma LLMs 的微调，通过使用该工具，用户可以在不牺牲性能的情况下，以更快的速度（2-5 倍加速）并且大幅减少内存使用（80% 减少）来进行模型的微调。此外，该项目还提供了一个列表功能，用于组织和管理用户星标的仓库，用户可以通过创建列表并添加描述来组织自己的仓库。该项目目前处于 Beta 阶段，鼓励用户提供反馈和报告 Bugs。项目的资金支持可以通过 ko-fi.com/unsloth 进行，该项目遵循 Apache-2.0 许可证。截至目前，该项目拥有超过 10.4k 的星标和 652 个叉子，以及 73 名观察者。
+
+**特点**
+
+- `unslothai/unsloth` 项目旨在提高大型语言模型微调的效率和速度，同时降低对计算资源的需求。
+- 该工具支持特定的 LLMs，包括 Llama 3、Mistral 和 Gemma，并且可以显著提升微调的性能。
+- 项目提供了一个用户友好的界面，允许用户创建和管理自己的仓库列表，以便更好地组织和跟踪他们感兴趣的项目。
+- 项目正在积极开发中，欢迎用户反馈和参与改进过程。
+- 项目的资金支持可以通过外部链接进行，这表明项目团队致力于社区支持和项目的持续发展。
+- 该项目遵循 Apache-2.0 许可证，这是一个开源许可证，允许用户自由地使用、修改和分发软件。
+- 项目的受欢迎程度可以通过其在 GitHub 上的星标和叉子数量来体现，这表明它在社区中有一定的知名度和影响力。
+
 ## 多模态
 
 ### [alibaba-damo-academy/FunClip](https://github.com/alibaba-damo-academy/FunClip)视频剪辑 ![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
@@ -648,9 +736,45 @@ AgentScope 是一个专为开发者设计的多智能体平台，它提供了丰
 - 安装与配置: 建议从源代码安装 AgentScope，并通过配置文件来设置和使用模型。
 - 用户界面: AgentScope Studio 提供了一个运行时用户界面，可以展示多模态输出，如文本、图片、音频和视频。
 
+
+### [joaomdmoura/crewAI](https://github.com/joaomdmoura/crewAI) ![GitHub stars](https://img.shields.io/github/stars/joaomdmoura/crewAI?style=social)
+
+crewAI 是一个先进的框架，旨在协调角色扮演的自治 AI 代理人，通过促进协作智能，使代理人能够无缝协作，共同解决复杂任务。
+
+**概述**
+
+crewAI 是一个开源的 AI 代理人框架，它允许开发者创建和管理一个由多个 AI 代理人组成的团队，这些代理人可以分配角色、共享目标，并且能够自主地相互委托任务，以提高问题解决的效率。框架支持使用不同的大型语言模型（LLMs），包括 OpenAI 的 API 和本地模型，如通过 Ollama 工具连接的模型。CrewAI 提供了两种流程管理方式：顺序流程和层次流程，后者允许自动分配管理员来协调任务的规划和执行。此外，CrewAI 支持将任务输出保存为文件，并且可以将输出解析为 Pydantic 模型或 Json 格式。CrewAI 的设计注重生产环境的适用性，它结合了 Autogen 的灵活性和 ChatDev 的流程概念，同时避免了它们的局限性。CrewAI 还集成了匿名的遥测功能，用于收集使用数据，以帮助改进库的功能和集成。CrewAI 遵循 MIT 许可证，并鼓励社区贡献。
+
+**特点**
+
+- **协作智能**: CrewAI 的核心理念是通过角色分配和目标共享，促进 AI 代理人之间的协作，以此来解决复杂的任务。
+- **灵活性和适应性**: CrewAI 提供了灵活的任务管理和流程控制，支持顺序和层次流程，并且正在开发更复杂的流程，如共识和自主流程。
+- **多样化的模型连接**: 框架支持多种大型语言模型，包括云服务和本地模型，提供了连接模型的多种方式。
+- **生产环境就绪**: CrewAI 专为生产环境设计，具有可扩展性和灵活性，适用于实际应用场景。
+- **社区和贡献**: CrewAI 鼓励开源贡献，并提供了详细的指南和工具来帮助贡献者参与进来。
+- **遥测和改进**: 通过匿名的遥测数据，CrewAI 团队能够专注于改进最常用的特性和工具，同时保护用户隐私。
+
+
+### [jgravelle/AutoGroq](https://github.com/jgravelle/AutoGroq) ![GitHub stars](https://img.shields.io/github/stars/jgravelle/AutoGroq?style=social)
+
+
+AutoGroq 是一个 AI 助手，旨在通过自动生成专家代理和工作流程，简化用户与 AI 工具的互动。
+
+**概述**
+
+AutoGroq 是一个开源的 AI 助手，它能够快速、简单地自动生成专家代理和工作流程，以帮助用户解决各种问题和项目。它支持与 Groq、ChatGPT 和 Ollama 等语言模型的集成，并且允许用户添加自定义技能。AutoGroq 提供了一个在线演示版本，用户可以通过它来体验其功能，并且可以本地安装。项目的代码和文档都可以在 GitHub 仓库中找到。AutoGroq 的关键特性包括动态生成专家代理、自动化工作流程、自然的对话流程、代码片段提取、灵活的代理管理以及高级的提示重新编写。用户可以通过输入他们的请求来启动 AutoGroq，系统会自动生成代理并创建工作流程文件，这些文件可以作为 ZIP 文件下载。AutoGroq 的架构包括 Streamlit 应用程序、实用程序模块和代理管理模块。
+
+**特点**
+
+- **用户友好性**: AutoGroq 旨在提供一个无需配置的用户友好体验，使用户能够快速获得专业的 AI 辅助。
+- **自动化和效率**: 通过一键式上传和自动代理生成，AutoGroq 大大提高了用户处理项目的效率。
+- **灵活性和定制性**: 用户可以自定义代理，添加新的技能，并根据项目需求管理代理。
+- **集成和支持**: AutoGroq 支持多种语言模型，并且正在扩展支持更多的模型。
+- **开源和社区贡献**: AutoGroq 是开源的，鼓励社区成员提供反馈和贡献以进一步发展平台。
+- **教育和易用性**: 提供了视频教程和在线演示，帮助用户快速上手 AutoGroq。
+- **技术创新**: AutoGroq 利用 Streamlit 库和各种 API 集成，展示了最新的 AI 和自然语言处理技术。
+
  ## 工具
-
-
 
 ### [run-llama/create-llama](https://github.com/run-llama/create-llama) 构建 ![GitHub stars](https://img.shields.io/github/stars/run-llama/create-llama?style=social)
 
@@ -948,7 +1072,26 @@ Data-Juicer 是一个专门为大型语言模型设计的一站式多模态数�
 - **社区与支持**: Data-Juicer 鼓励用户参与贡献，提供了Slack频道和DingDing群组，以促进LLM数据开发和研究的交流。
 - **持续更新**: Data-Juicer 正在积极维护和更新，定期增加新功能、数据食谱和数据集。
   
+### [Avdpro/ai2apps](https://github.com/Avdpro/ai2apps) 应用构建 ![GitHub stars](https://img.shields.io/github/stars/Avdpro/ai2apps?style=social)
 
+
+AI2Apps 是一个旨在快速开发实用 AI 代理应用的平台，提供基于 Tab-OS 的完整的基于 Web 的可视化开发工具集，支持通过拖放操作快速构建 AI 代理项目，并直接发布为应用。
+
+**概述**
+
+AI2Apps 是一个专注于快速开发实用 AI 代理应用的平台。它基于 Tab-OS，提供了一套完整的基于 Web 的可视化开发工具集，允许开发者通过拖放操作快速构建自己的 AI 代理，并直接将其打包成可发布的应用。AI2Apps 支持在网页上直接使用或在本地部署，使用本地部署可以使用自己的 OpenAI Key。本平台提供了强大且易于使用的 AI 控件，支持直接将开发的 AI 代理打包成独立的 Web/移动应用，或将其集成到现有网站/应用中。AI2Apps 还提供了强大的调试功能，如断点、逐步执行和 GPT Cheat 等，以及多语言支持和更简单的产品维护方式。此外，AI2Apps 允许通过插件进行功能扩展，并计划在未来支持更多的大型语言模型（LLM）和其他类型的 AI 模型。
+
+**特点**
+
+- **快速原型设计**: AI2Apps 通过拖放操作绘制拓扑图迅速设计代理逻辑，自动同步代理代码，节省大量编程时间。
+- **直接打包为应用**: 开发完成的 AI 代理可以直接打包成独立的 Web/移动应用，或集成到现有系统中。
+- **强大的调试功能**: AI2Apps 提供了断点、逐步执行、GPT Cheat 等调试功能，有助于快速定位问题并优化代理性能。
+- **更高效的用户交互**: AI2Apps 提供了多种 UI 控件，支持开发者创建与专业应用相似的交互方式。
+- **本地化支持**: 利用 AI2Apps 中的 AI 功能，可以轻松地开发多语言版本的代理，提高开发效率。
+- **易于维护**: AI2Apps 的“同时设计和编码”模式确保代码和设计始终同步，便于后续维护。
+- **通过插件扩展功能**: AI2Apps 允许开发者根据需要创建自己的插件，扩展平台功能。
+- **未来计划**: AI2Apps 计划支持更多的 LLM 模型，如 Llama-2、MPT、Falcon 和 Pythia，以及绘图和语音识别/合成的 AI 模型，并开发浏览器插件和更多文档和示例。
+- 
 ### [Kanaries/pygwalker](https://github.com/Kanaries/pygwalker) 数据可视化 ![GitHub stars](https://img.shields.io/github/stars/Kanaries/pygwalker?style=social)
 
 **pygwalker** 是一个开源项目，旨在通过转换 pandas 数据框架为交互式 UI，帮助用户进行数据可视化分析。
@@ -986,6 +1129,65 @@ Data-Juicer 是一个专门为大型语言模型设计的一站式多模态数�
 - **异步运行**: `augmentoolkit` 支持异步运行，使得数据集的生成过程更加高效。
 - **社区支持**: 用户可以在Discord社区中获得支持，与其他用户和开发者交流使用经验和最佳实践。
 - **专业咨询服务**: 对于需要定制数据集和数据生成工具的企业，`augmentoolkit` 提供了专业的咨询服务，帮助企业快速实现其目标。
+
+
+### [AgentOps-AI/agentops](https://github.com/AgentOps-AI/agentops) 监控 ![GitHub stars](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=social)
+
+
+AgentOps-AI/agentops 是一个开源的 Python SDK，用于监控 AI 代理（agent），追踪大型语言模型（LLM）的成本，进行评估和基准测试，并与多数 LLM 和代理框架（如 CrewAI、Langchain 和 Autogen）集成。
+
+**概述**
+
+AgentOps-AI/agentops 是一个在 GitHub 上开源的 Python SDK，旨在帮助开发者构建、评估和监控 AI 代理。它提供了一系列工具，包括会话回放分析和调试、LLM 成本管理、代理基准测试、合规性和安全性检测以及与多个代理框架的集成。该项目支持通过 Beta Lists 功能组织和分享星标仓库列表，并且鼓励用户反馈和报告错误。项目包含多个文件夹和文件，如 `.github`、`agentops`、`docs`、`examples`、`tests` 等，每个部分都有最近的提交记录和消息。
+
+AgentOps 提供了快速启动指南，展示了如何使用 pip 安装 agentops，并通过几行代码初始化 AgentOps 客户端、记录特定函数的执行情况，以及结束会话。它还支持与 CrewAI、Langchain、Cohere 和 LlamaIndex 等多个平台和框架的集成，并提供了相应的使用示例和文档链接。此外，AgentOps 还在路线图上规划了时间旅行调试、代理竞技场等功能，以及详细的评估和调试路线图，包括性能测试、环境测试、LLM 测试和推理测试等。
+
+AgentOps 的使命是将 AI 代理从原型推向生产环境，它是评估、打分和测试代理的最简单方式。项目鼓励社区通过 issues 标签提出新功能请求，并承诺将其纳入未来的路线图。AgentOps 提供了 MIT 许可证和行为准则，并且在 GitHub 上有 755 颗星标和 53 个叉子，表明它在社区中有一定的关注度和参与度。
+
+**特点**
+
+- **监控和评估 AI 代理**: AgentOps-AI/agentops 提供了一套完整的工具，用于监控和评估 AI 代理的性能，包括会话回放分析、LLM 成本追踪和代理基准测试。
+- **集成和兼容性**: 该 SDK 设计了与多个 LLM 和代理框架（如 CrewAI、Langchain 和 Autogen）的集成能力，使得开发者能够轻松地将 AgentOps 集成到现有的代理开发环境中。
+- **开源和社区驱动**: AgentOps-AI/agentops 是开源项目，鼓励社区成员参与贡献，并通过 GitHub 的 issues 功能来收集用户反馈和功能请求。
+- **易于使用**: 提供了详细的快速启动指南和集成示例，使得开发者能够迅速上手并将 AgentOps 应用于他们的项目中。
+- **持续发展**: 项目拥有一个明确的功能发展路线图，包括即将推出的时间旅行调试、代理竞技场等功能，以及对代理代理的全面评估和调试支持。
+- **关注生产环境**: AgentOps 的目标是帮助开发者将 AI 代理从实验室环境推向生产环境，确保代理在实际应用中的可靠性和效率。
+
+### [nocobase/nocobase](https://github.com/nocobase/nocobase) 无代码 ![GitHub stars](https://img.shields.io/github/stars/nocobase/nocobase?style=social)
+
+**NocoBase** 是一个开源的无代码/低代码平台，旨在构建企业级业务应用程序，强调可扩展性。
+
+**概述**
+
+**NocoBase** 是一个开源项目，提供了一个无代码/低代码的解决方案，用于构建企业级的业务应用程序。该平台注重可扩展性，适用于不同规模的企业解决方案。用户可以通过创建列表来组织自己的收藏仓库，并可以对仓库进行观察、分叉或取消收藏。目前该项目在 GitHub 上拥有超过 9.3k 的星标和 1k 的分叉，表明其在开发者社区中的相关性和普及度。NocoBase 提供了一个官方网站 `www.nocobase.com` 供用户了解更多信息。此外，项目遵循 AGPL-3.0 许可协议，并提供了安全策略。GitHub 仓库中包含了 4,970 个提交，显示了项目的活跃性和开发进度。最新的提交记录显示在 2024 年 5 月 26 日，修复了表单链接规则中数字字段显示问题。项目还包括如 `.github` 和 `.vscode` 的配置文件夹，这些文件夹包含了与项目构建和测试相关的配置。
+
+**特点**
+
+- **NocoBase** 是一个专注于可扩展性的无代码/低代码平台，适用于构建各种规模的企业业务应用程序。
+- 项目的流行和社区支持可以通过 GitHub 上的星标和分叉数量来体现。
+- 项目遵循 AGPL-3.0 许可协议，这对于用户理解如何使用和贡献代码至关重要。
+- 项目的安全策略表明对于代码安全性和漏洞处理的重视。
+- 项目的活跃性和持续更新反映了其维护团队的专业性和对项求的承诺。
+- 最新的提交和配置文件夹展示了项目的具体技术细节和开发实践。
+
+### [wanglin2/mind-map](https://github.com/wanglin2/mind-map) 思维导图 ![GitHub stars](https://img.shields.io/github/stars/wanglin2/mind-map?style=social)
+
+**wanglin2/mind-map** 是一个在GitHub上开源的项目，提供了一个相对强大的Web思维导图工具，包括一个JS库和一个基于Vue2.x和ElementUI开发的Web应用，支持本地文件操作和多平台客户端下载，并提供了多种插件扩展功能。
+
+**概述**
+
+该项目由两部分组成：一是一个不依赖任何框架的JS思维导图库，用于快速开发Web思维导图产品；二是一个基于该库开发的Web思维导图应用，支持本地文件操作，并可以自部署和二次开发。提供了在线访问地址和多平台客户端下载。项目还提供了多种插件，如RichText、Select、Drag等，以及一些特性，如键盘导航、小地图、水印、触摸事件支持等。但也有一些特性不会实现，如自由节点和概要节点后续添加节点。项目使用MIT协议开源，欢迎star和贡献，并提供了微信交流群和请作者喝咖啡的方式以支持项目。
+
+**特点**
+
+- **开源项目**: wanglin2/mind-map 是一个开源项目，鼓励社区参与和贡献。
+- **跨平台**: 提供了跨平台的客户端下载，支持Windows、Mac和Linux。
+- **插件化**: 项目采用插件化设计，允许用户根据需求选择性引入所需插件。
+- **易于使用和集成**: 提供了详细的开发文档和示例，方便开发者快速集成和使用。
+- **限制的特性**: 项目明确指出不会支持自由节点和概要节点后续添加节点的特性，提醒用户在选择时考虑。
+- **社区支持**: 提供了微信交流群作为技术支持和交流平台，同时也接受用户的财务支持。
+- **版权和商业化**: 项目采用MIT协议，允许商业使用，但需保留版权声明，如需去除版权声明，需与作者联系。
+- **持续更新**: 项目近期有更新记录，表明项目仍在积极维护和更新中。
 
 ## 算法
 
