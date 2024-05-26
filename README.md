@@ -13,6 +13,9 @@
 		- [lobehub/lobe-chat ](#lobehublobe-chat-)
 		- [QAnything ](#qanything-)
 		- [open-webui/open-webui ](#open-webuiopen-webui-)
+		- [QuivrHQ/quivr ](#quivrhqquivr-)
+		- [rashadphz/farfalle 搜索 ](#rashadphzfarfalle-搜索-)
+		- [truefoundry/cognita ](#truefoundrycognita-)
 		- [toeverything/AFFiNE ](#toeverythingaffine-)
 		- [rashadphz/farfalle ](#rashadphzfarfalle-)
 		- [weaviate/Verba ](#weaviateverba-)
@@ -23,10 +26,13 @@
 		- [⭐️ OpenDevin/OpenDevin 代码生成 ](#️-opendevinopendevin-代码生成-)
 		- [stitionai/devika 代码生成 ](#stitionaidevika-代码生成-)
 		- [OpenBMB/ChatDev代码生成 ](#openbmbchatdev代码生成-)
+		- [khoj-ai/khoj AI助手 ](#khoj-aikhoj-ai助手-)
+		- [weaviate/Verba ](#weaviateverba--1)
+		- [stanford-oval/storm 报告 ](#stanford-ovalstorm-报告-)
 	- [服务项目](#服务项目)
 		- [ollama ](#ollama-)
 		- [janhq/jan](#janhqjan)
-		- [\[modelscope/swift\] 训练模型 ](#modelscopeswift-训练模型-)
+		- [modelscope/swift  训练模型 ](#modelscopeswift--训练模型-)
 		- [modelscope/DashInfer 推理 ](#modelscopedashinfer-推理-)
 	- [多模态](#多模态)
 		- [alibaba-damo-academy/FunClip视频剪辑 ](#alibaba-damo-academyfunclip视频剪辑-)
@@ -35,16 +41,28 @@
 		- [microsoft/autogen ](#microsoftautogen-)
 		- [lobehub/lobe-chat-agents ](#lobehublobe-chat-agents-)
 		- [cpacker/MemGPT ](#cpackermemgpt-)
-		- [\[AgentScope/modelscope\] (https://github.com/AgentScope/modelscope) ](#agentscopemodelscope-httpsgithubcomagentscopemodelscope-)
+		- [AgentScope/modelscope  ](#agentscopemodelscope--)
 	- [工具](#工具)
 		- [run-llama/create-llama 构建 ](#run-llamacreate-llama-构建-)
 		- [AutomaApp/automa 工具 ](#automaappautoma-工具-)
 		- [CopilotKit/CopilotKit 交互 ](#copilotkitcopilotkit-交互-)
+		- [szkane/PopclipGemini 交互 ](#szkanepopclipgemini-交互-)
 		- [mendableai/firecrawl 抽取 ](#mendableaifirecrawl-抽取-)
 		- [mendableai/firecrawl-py 抽取 ](#mendableaifirecrawl-py-抽取-)
 		- [josStorer/chatGPTBox 浏览器插件 ](#josstorerchatgptbox-浏览器插件-)
-		- [continuedev/continue IDE插件 ](#continuedevcontinue-ide插件-)
+		- [⭐️ continuedev/continue IDE插件 ](#️-continuedevcontinue-ide插件-)
 		- [langchain-ai/langchain-nextjs-template 构建工具 ](#langchain-ailangchain-nextjs-template-构建工具-)
+		- [slidevjs/slidev PPT ](#slidevjsslidev-ppt-)
+		- [weibocom/rill-flow 工作流 ](#weibocomrill-flow-工作流-)
+		- [xszyou/Fay 数字人 ](#xszyoufay-数字人-)
+		- [OpenTalker/video-retalking 视频合成 ](#opentalkervideo-retalking-视频合成-)
+		- [streamlit/streamlit](#streamlitstreamlit)
+		- [BasedHardware/OpenGlass 智能硬件 ](#basedhardwareopenglass-智能硬件-)
+		- [modelscope/data-juicer 数据处理 ](#modelscopedata-juicer-数据处理-)
+		- [Kanaries/pygwalker 数据可视化 ](#kanariespygwalker-数据可视化-)
+		- [e-p-armstrong/augmentoolkit 数据集构建 ](#e-p-armstrongaugmentoolkit-数据集构建-)
+	- [算法](#算法)
+		- [naklecha/llama3-from-scratch ](#naklechallama3-from-scratch-)
 	- [研究论文](#研究论文)
 	- [教程和课程](#教程和课程)
 	- [社区和会议](#社区和会议)
@@ -125,6 +143,71 @@ open-webui/open-webui 项目是一个开源的 Web 界面，旨在提供一个�
 - 开发路线图: 项目在其文档中提供了未来功能的发展路线图，让用户了解即将推出的新特性。
 
 
+### [QuivrHQ/quivr](https://github.com/QuivrHQ/quivr) ![](https://img.shields.io/github/stars/QuivrHQ/quivr?style=social)
+
+
+QuivrHQ/quivr 是一个基于生成式人工智能（GenAI）的个人生产力助手，旨在作为一个第二大脑，帮助用户通过与文档（如 PDF、CSV 等）和应用程序的对话来组织和管理信息。它支持多种语言模型，如 Langchain、GPT 3.5/4 turbo、Anthropic、VertexAI、Ollama 和 Groq，并提供了一个本地和私有的替代方案，以此来替代 OpenAI 的 GPT 和 ChatGPT。
+
+**摘要**
+
+QuivrHQ/quivr 项目的 GitHub 页面提供了关于该项目的详细信息，包括它是如何作为一个个人生产力助手，利用检索增强生成（RAG）技术来帮助用户管理和查询信息。用户可以通过创建列表来组织自己的收藏仓库，并为列表添加名称和描述。该项目目前处于测试阶段，鼓励用户分享反馈和报告错误。
+
+该项目使用 Apache-2.0 许可证，已经获得了 33.4k 的星标和 3.3k 的叉子。用户可以通过关注项目来接收推送通知，或者选择将项目的副本存储在自己的账户中。GitHub 页面还提供了项目的历史记录，包括最新的提交信息和日期，以及项目的文件和文件夹结构。
+
+该项目的最新提交包括更新 AWS 服务的任务定义文件中的 CPU 和内存设置，以及更新开发容器配置文件。这些更新旨在提高项目的性能和资源利用率。
+
+**特点**
+
+- **本地和私有的 AI 助手**: QuivrHQ/quivr 提供了一个本地和私有的 AI 助手，这为用户提供了更高的数据隐私和安全性。
+- **多语言模型支持**: 项目支持多种语言模型，包括但不限于 GPT 3.5/4 turbo、Anthropic、VertexAI 等，这使得用户可以根据自己的需求选择合适的语言模型。
+- **检索增强生成技术**: Quivr 使用了 RAG 技术，这种技术结合了检索系统和生成模型，以提供更准确和相关的信息响应。
+- **用户参与和反馈**: 项目鼓励用户参与测试，并提供反馈和错误报告，这有助于项目的持续改进和完善。
+- **资源优化**: 通过增加 CPU 和内存资源的分配，项目提升了 AWS 服务的性能，这对于处理大型工作负载至关重要。
+- **开发环境的便捷性**: 通过更新 `.devcontainer` 文件，项目提供了一个预配置的开发环境，这简化了开发者的设置过程，并确保了一致性的开发环境。
+
+### [rashadphz/farfalle](https://github.com/rashadphz/farfalle) 搜索 ![GitHub stars](https://img.shields.io/github/stars/rashadphz/farfalle?style=social)
+
+`rashadphz/farfalle` 是一个开源的 AI 搜索引擎项目，允许用户通过本地或云端的大型语言模型（LLMs）进行搜索和问题回答。
+
+**概述**
+
+`rashadphz/farfalle` 项目是一个类似 Perplexity 的 AI 搜索引擎，支持使用本地或云端的大型语言模型（如 llama3、gemma、mistral、phi3、Groq/Llama3、OpenAI/gpt4-o）来进行搜索和问题回答。项目的前端采用 Next.js，后端使用 FastAPI，搜索 API 可以选择 SearXNG 或 Tavily，日志管理使用 Logfire，限流采用 Redis，UI 组件使用 shadcn/ui。
+
+项目提供了一个实时演示（farfalle.dev），展示了使用云端模型的搜索引擎功能。此外，项目还有一个技术路线图，计划添加对本地 LLMs 的支持，设置 Docker 部署，整合 Searxng 以及与 LiteLLM 协作。
+
+要在本地启动和使用该项目，用户需要安装 Docker 和 Ollama，并且可能需要获取 Tavily、OpenAI 或 Groq 的 API 密钥。接下来，用户需要克隆仓库、配置环境变量、运行 Docker Compose 以及按照自定义设置指南进行操作。
+
+部署时，用户需要将后端部署到 Render 并获取 Web 服务 URL，然后在 Vercel 上部署前端时使用该 URL。项目还提供了指导，教用户如何将 Farfalle 设置为默认搜索引擎。
+
+该项目目前有 1.3k 个星标、10 个关注者和 97 个叉子。项目使用 Apache-2.0 许可证，并且还没有发布正式版本。项目的主要贡献者是 rashadphz 和 arsaboo。
+
+**特点**
+
+- **开源 AI 搜索引擎**: `rashadphz/farfalle` 是一个开源项目，旨在为用户提供一个由 AI 驱动的搜索引擎，可以使用本地或云端的大型语言模型进行搜索和问题解答。
+- **技术栈**: 项目采用了现代化的技术栈，包括 Next.js、FastAPI、SearXNG/Tavily、Logfire 和 Redis，以及 shadcn/ui 组件库。
+- **本地与云端模型支持**: 用户可以选择使用本地的大型语言模型或者云端服务进行搜索，提供了灵活的部署选项。
+- **易于部署与使用**: 项目提供了详细的文档和步骤指南，使得用户能够容易地在本地或云端部署和使用搜索引擎。
+- **定制化设置**: 项目支持自定义设置，包括配置不同的搜索提供商和环境变量，以及提供自定义部署指南。
+- **社区与协作**: 项目鼓励社区参与和贡献，提供了问题跟踪和讨论平台，同时也展示了项目的贡献者列表。
+- **许可与版本**: 项目遵循 Apache-2.0 许可证，并且还没有正式发布版本，表明项目可能仍在积极开发中。
+
+### [truefoundry/cognita](https://github.com/truefoundry/cognita) ![GitHub stars](https://img.shields.io/github/stars/truefoundry/cognita?style=social)
+
+`truefoundry/cognita` 是一个开源的 RAG（Retrieval Augmented Generation）框架，旨在帮助开发者构建模块化、可扩展的生产级应用程序。
+
+**概述**
+
+`truefoundry/cognita` 是由 TrueFoundry 开发的一个 RAG 框架，用于在生产环境中构建开源的、模块化的应用程序。该框架使用 Langchain/LlamaIndex 提供的抽象，使得在 Jupyter 笔记本上进行快速实验和原型设计变得容易，同时也支持在本地环境中轻松使用，并提供了一个无需编码的 UI 支持。Cognita 支持增量索引，并且具有模块化的组件结构，包括数据源、元数据存储、LLM Gateway、向量数据库（Vector DB）和索引作业等。用户可以通过本地运行或使用 TrueFoundry 的部署来体验 Cognita，并且可以通过自定义查询控制器（Query Controller）来实现问答系统。Cognita 的代码结构清晰，允许用户自定义数据加载器、嵌入模型、解析器和向量数据库等组件，以适应特定的使用场景。此外，Cognita 还支持多种文档检索器、嵌入模型、重排器以及增量索引功能。
+
+**特点**
+
+- **模块化和可扩展性**: Cognita 提供了一个组织良好的代码库，其中包含了可重用的解析器、加载器、嵌入模型和检索器，使得代码库易于测试和部署。
+- **用户友好的 UI**: 非技术用户可以通过 UI 上传文档并执行问答任务，同时也支持 API 驱动，允许与其他系统集成。
+- **生产就绪环境**: Cognita 支持本地设置和生产环境部署，提供了一个 FastAPI 服务器来处理用户查询并生成答案。
+- **灵活的自定义选项**: 用户可以根据自己的需求自定义数据加载器、嵌入模型、解析器和向量数据库等组件。
+- **增量索引**: Cognita 支持对文档进行增量索引，减少了计算负担，并且能够跟踪已索引的文档，防止重复索引。
+- **问答系统**: 通过查询控制器，Cognita 能够处理用户的问题，并使用 LLM 模型生成答案，同时还可以选择性地丰富相关文档的元数据。
+- **开源贡献**: Cognita 鼓励开源贡献，并提供了详细的文档和指南，帮助开发者参与到项目中来。
 
 ### [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE.git) ![GitHub stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social)
  是一个开源的下一代知识库，它结合了规划、分类和创作功能，注重隐私，高度可定制，并且已经准备好使用。
@@ -319,6 +402,66 @@ ChatDev 已经推出了多项新功能，如迭代体验优化（IER）、经验
 - **易于使用**: 提供了详细的快速启动指南和高级技能指导，使得用户能够轻松开始使用 ChatDev。
 - **许可和合规性**: 项目的源代码和数据遵循 Apache 2.0 和 CC BY-NC 4.0 许可证，确保合规使用和分享。
 
+
+### [khoj-ai/khoj](https://github.com/khoj-ai/khoj) AI助手 ![GitHub stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social)
+
+khoj-ai/khoj 是一个开源项目，旨在为用户提供一个个人的 AI 助手，帮助扩展个人能力，通过整合个人笔记和文档，提供实时互联网信息访问，并支持多平台接入，包括桌面、Emacs、Obsidian、Web 和 WhatsApp。
+
+**概述**
+
+khoj-ai/khoj 项目是一个开源的个人人工智能助手，它允许用户将自己的笔记和文档整合到一个数字大脑中，从而扩展其认知能力。该 AI 助手能够访问互联网，让用户能够纳入最新信息。khoj 支持多种平台，包括桌面应用、Emacs、Obsidian、网页和 WhatsApp。用户可以分享 PDF、Markdown、Org-mode、Notion 文件以及 GitHub 仓库。khoj 提供快速准确的语义搜索功能，能够创建个性化图像，并理解语音。khoj 是一个开源项目，支持自托管，同时也提供云服务。项目的最新版本是 1.12.1，发布日期为 2024 年 5 月 25 日。此外，项目积极寻求贡献者参与新功能的开发、文档的改进或者 Bug 的修复，并提供了贡献指南和贡献者项目板。项目还获得了一些赞助商的支持。
+
+**特点**
+
+- **开源个人 AI 助手**: khoj-ai/khoj 是一个开源项目，旨在为用户提供一个个人化的 AI 助手，帮助用户管理和利用自己的数字资料。
+- **多平台支持**: 用户可以通过多种方式访问 khoj，包括桌面应用、Emacs、Obsidian、网页和 WhatsApp，以适应不同用户的偏好。
+- **文档整合与搜索**: khoj 允许用户整合各种格式的文档，并提供语义搜索功能，以便快速找到所需信息。
+- **互联网访问与个性化服务**: AI 助手能够访问互联网，提供最新信息，并能够根据用户的需求创建个性化的图像和理解语音。
+- **自托管与云服务**: 用户可以选择自己托管 khoj，或者使用提供的云服务实例。
+- **社区贡献与发展**: khoj 项目鼓励社区成员的参与，提供了详细的贡献指南，并通过赞助机制支持项目的持续发展。
+- **最新发布与活跃度**: 项目最近发布了 1.12.1 版本，并且维持着活跃的更新和部署记录，显示了项目的持续活跃和发展状态。
+
+### [weaviate/Verba](https://github.com/weaviate/Verba) ![GitHub stars](https://img.shields.io/github/stars/weaviate/Verba?style=social)
+
+Verba 是一个开源的 Retrieval Augmented Generation (RAG) 聊天机器人，由 Weaviate 提供支持，可以本地或通过云服务进行部署，支持多种数据和模型，并提供了详细的安装和使用指南。
+
+**概述**
+
+Verba 是一个基于 Weaviate 的 RAG 聊天机器人，它允许用户通过本地部署或云服务（如 Weaviate Cloud Service, WCS）来使用。该项目支持多种模型，包括 Ollama、HuggingFace、Cohere、Google 和 OpenAI，以及不同类型的数据导入，如 PDF 和 CSV/XLSX 文件。Verba 提供了多种特性，如混合搜索、语义缓存、自动补全建议、以及计划中的过滤器和高级查询功能。用户可以通过 pip、源代码构建或 Docker 来部署 Verba。项目鼓励开源贡献，并提供了详细的技术文档和前端文档。Verba 面临的已知问题包括在 Windows 上 Weaviate Embedded 不工作，并且提供了常见问题解答。
+
+**特点**
+
+- **灵活性**: Verba 提供了多种部署方式，包括本地安装、源代码构建和 Docker 部署，以满足不同用户的需求。
+- **模型和数据支持**: Verba 支持多种 LLM 和数据类型，包括 PDF 和 CSV/XLSX 文件，以及通过 UnstructuredIO 的多模态数据导入。
+- **RAG 特性**: Verba 具备多项 RAG 特性，如混合搜索、语义缓存和自动补全建议，同时正在开发更多高级功能，如过滤器和 RAG 评估界面。
+- **开源和社区**: Verba 鼓励社区成员的参与和贡献，提供了详细的贡献指南，并通过 Weaviate Community Forum 提供支持。
+- **文档和指南**: 项目提供了详细的安装指南、API 密钥配置说明以及关于如何解决已知问题的指导。
+- **多语言和国际化**: Verba 的多语言支持取决于所选的嵌入和生成模型是否支持多语言数据。
+- **集成和扩展**: Verba 允许用户通过环境变量配置不同的 API 密钥，以集成和使用不同的服务提供商，如 OpenAI、Google 和 HuggingFace。
+
+### [stanford-oval/storm](https://github.com/stanford-oval/storm) 报告 ![GitHub stars](https://img.shields.io/github/stars/stanford-oval/storm?style=social)
+ 是一个由大型语言模型（LLM）驱动的知识策划系统，能够自动对话题进行研究并生成带有引用的完整报告。
+
+**摘要**
+
+**storm** 项目是一个位于 `https://github.com/stanford-oval/storm` 的开源仓库，它提供了一个基于大型语言模型的知识策划系统。该系统能够自动进行网络研究，收集参考资料，并生成一个类似维基百科文章的完整报告，包括引用。目前，该项目已经有超过4.5k的星标和438个叉子。
+
+项目最近更新了支持Bing搜索的功能，并且可以配置使用 `GPT-4o` 模型来生成文章。**storm** 的工作流程分为两个阶段：预写作阶段和写作阶段。在预写作阶段，系统会进行基于互联网的研究并生成大纲；在写作阶段，系统使用该大纲和参考资料生成带有引用的完整文章。**storm** 采用了两种策略来提高问题的深度和广度：基于不同视角的问题提问和模拟对话。
+
+**storm** 的代码库已经重构，提供了模块化的接口，允许用户自定义知识策划流程中的各个环节，包括搜索引擎和语言模型。项目鼓励社区贡献，包括集成更多的搜索引擎和语言模型客户端。此外，项目还提供了自动评估系统的质量，包括大纲质量和完整文章质量的评估指标。
+
+项目的默认语言模型配置在 `src/modules/utils.py` 中设置，用户可以根据需要进行修改。**storm** 的开发团队鼓励开发者通过问题或拉取请求来提供反馈和建议，以改进系统和代码库。
+
+**特点**
+
+- **storm** 系统旨在通过自动化的研究和写作流程，帮助用户生成高质量的知识报告。
+- 系统的核心在于自动提出有效的问题来指导研究过程，这是通过考虑不同视角和模拟与专家的对话来实现的。
+- **storm** 的设计非常模块化，允许用户根据自己的需求自定义各个组件，包括知识策划、大纲生成、文章生成和文章润色模块。
+- 项目团队重视社区贡献，鼓励集成更多的搜索引擎和语言模型，以及对系统性能的改进。
+- 为了评估系统生成的文章质量，**storm** 提供了一套自动化的评估工具，包括基于ROUGE和实体回忆的指标，以及基于rubric评分的指标。
+- 项目的文档目前仍在进行中，但已经提供了详细的使用说明和示例脚本，以便用户可以快速上手和定制系统。
+- **storm** 项目的成果已经在 NAACL 2024 会议上发表，并提供了复现实验结果的指导和代码备份。
+
 ## 服务项目
 
 ### [ollama](https://github.com/ollama/ollama) ![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
@@ -359,7 +502,7 @@ ollama 项目是一个开源框架，旨在帮助用户快速开始使用 Llama 
 - 许可证: 项目遵循 AGPL-3.0 许可证，这是一个对用户友好的开源许可证，允许用户自由地使用、修改和分发软件，只要他们遵守 AGPL 的条款。
 - 跨平台支持: 项目的电子（Electron）部分表明它支持跨平台的桌面应用程序，这意味着它可以在不同的操作系统上运行。
 
-### [modelscope/swift]![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social) 训练模型 ![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
+### [modelscope/swift](https://github.com/modelscope/swift.git)  训练模型 ![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
  仓库提供了一个名为 ms-swift 的框架，用于使用 PEFT（Parameter-Efficient Fine-Tuning）或全参数微调来对超过 200 个大型语言模型（LLMs）或多模态大型语言模型（MLLMs）进行微调，支持训练、推理、评估和部署。
 
 **摘要**
@@ -489,7 +632,7 @@ MemGPT 项目的 GitHub 仓库介绍了如何使用该框架创建具有长期�
 - 持续更新: 项目团队定期更新代码库，确保框架的安全性和功能的最新性。
 
 
-### [AgentScope/modelscope] (https://github.com/AgentScope/modelscope) ![GitHub stars](https://img.shields.io/github/stars/AgentScope/modelscope?style=social)
+### [AgentScope/modelscope](https://github.com/AgentScope/modelscope)  ![GitHub stars](https://img.shields.io/github/stars/AgentScope/modelscope?style=social)
 是一个多智能体平台，旨在简化使用大型语言模型构建多智能体应用的过程。
 
 **摘要**
@@ -567,6 +710,24 @@ CopilotKit/CopilotKit 项目旨在帮助开发者创建能够与用户交互的 
 - 丰富的文档和资源: 项目提供了 README、文档、示例和其他资源，以帮助开发者理解和有效使用框架。 
 
 
+### [szkane/PopclipGemini](https://github.com/szkane/PopclipGemini) 交互 ![GitHub stars](https://img.shields.io/github/stars/szkane/PopclipGemini?style=social)
+
+szkane/PopclipGemini 是一个基于 Google Gemini AI 的 Popclip 扩展，旨在提供包括改善写作、扩展文本、简化文本、拼写和语法检查以及翻译等功能。
+
+**概述**
+
+szkane/PopclipGemini 是一个开源项目，提供了一个 Popclip 应用程序的扩展，利用 Google Gemini AI 技术来辅助写作。该扩展包括以下几个功能：改善写作、使文本更长、使文本更短、拼写和语法检查以及翻译服务。用户需要先安装 Popclip 应用在 Mac 上，然后通过选择并安装相应的扩展文件来使用这些功能。项目的文件和文件夹结构包括了各个功能的 JavaScript 实现文件，如 `ImproveWriting.js`、`MakeLonger.js` 等，以及 `LICENSE` 文件和 `README.md` 文件。
+
+项目在 GitHub 上有 66 颗星和 7 个叉子，表明有一定的社区关注和参与。该项目的开发历史记录了从尝试创建 Popclip 扩展到添加模型选项和支持最新版本的 Gemini 的发展过程。然而，作者在最新的更新中提到，由于发现了更优秀的免费应用和扩展，将不再更新该项目。作者建议感兴趣的用户可以访问 `openai-translator` 链接获取更好的工具。
+
+**特点**
+
+- **AI 辅助写作**: 该扩展通过 Google Gemini AI 提供多种写作辅助功能，如改善写作质量、调整文本长度、校对拼写和语法错误，以及提供翻译服务。
+- **用户交互**: 用户需要通过安装 Popclip 应用和相应的扩展文件来启用这些 AI 功能。
+- **开源性和社区参与**: 项目是开源的，鼓励社区成员的参与和贡献，这 reflected 在 GitHub 上的 star 和 fork 数量上。
+- **项目维护**: 作者已经决定停止对该项目的更新，因为他发现了更好的替代品，这可能影响用户对该扩展的未来使用和支持。
+- **技术支持和文档**: 项目提供了详细的 `README.md` 文件，包括安装指南、功能描述和更新日志，以及如何获取 Google Gemini API 密钥的信息。
+- **许可证**: 该项目使用 Apache-2.0 许可证，这对于想要使用或贡献到项目的开发者提供了一定的法律保障和指导。
 
 ### [mendableai/firecrawl](https://github.com/mendableai/firecrawl.git) 抽取 ![GitHub stars](https://img.shields.io/github/stars/mendableai/firecrawl?style=social)
 
@@ -615,7 +776,7 @@ josStorer/chatGPTBox 项目是一个免费的浏览器扩展，它允许用户�
 - 项目基础和灵感: ChatGPTBox 项目的开发受到了其他相关项目的启发和贡献，这表明了开源项目之间的协作和继承。
 - 社区反馈和透明度: 项目欢迎用户反馈，并通过公开的问题跟踪和更新来保持透明度。
 
-### [continuedev/continue](https://github.com/continuedev/continue) IDE插件 ![GitHub stars](https://img.shields.io/github/stars/continuedev/continue?style=social)
+### ⭐️ [continuedev/continue](https://github.com/continuedev/continue) IDE插件 ![GitHub stars](https://img.shields.io/github/stars/continuedev/continue?style=social)
  是一个开源项目，提供了 VS Code 和 JetBrains 插件，旨在帮助开发者创建自己的模块化人工智能软件开发系统。
 
 **摘要**
@@ -655,7 +816,196 @@ continuedev/continue 项目的 GitHub 页面展示了该项目的基本信息和
 - 开源和协作: 作为一个公共模板仓库，它鼓励社区贡献和协作，同时提供了 MIT 许可证，使得代码的使用和修改具有较大的自由度。
 
 
-- 
+### [slidevjs/slidev](https://github.com/slidevjs/slidev) PPT ![GitHub stars](https://img.shields.io/github/stars/slidevjs/slidev?style=social)
+
+slidevjs/slidev 是一个为开发者设计的演示文稿工具，支持 Markdown 和 Vue 组件，并提供了多种特性和技术栈，如 Vite、Vue 3、UnoCSS 等，以及代码高亮、录制和绘图功能。
+
+**概述**
+
+slidevjs/slidev 是一个开源项目，旨在为开发者提供强大的演示文稿制作工具。项目使用 Vite 作为前端构建工具，结合 Vue 3 和 Markdown 语法，使得编写演示文稿既方便又强大。UnoCSS 提供了即用型的 CSS 引擎，方便样式的编写。该工具支持 Shiki 和 Monaco Editor，提供了优秀的代码高亮和即时编码功能。RecordRTC 支持演示文稿的录制和摄像头视图。此外，还集成了 VueUse 生态系列、Iconify 图标集合、Drauu 绘图工具和 KaTeX LaTeX 数学渲染等功能。项目文档支持多种语言，包括英文、中文、法语、西班牙语、俄语和葡萄牙语（巴西）。该项目由 Anthony Fu 创建和维护，遵循 MIT 许可证，并得到了多达 229 位贡献者的支持。项目拥有超过 31.5k 的星标和 1.2k 的叉子，表明其在开发者社区中的流行度。
+
+**特点**
+
+- **为开发者设计**: slidevjs/slidev 专为开发者提供了一个强大的演示文稿工具，支持 Markdown 和 Vue 组件的编写。
+- **技术栈**: 项目采用了最新的前端技术栈，包括 Vite、Vue 3、UnoCSS 等，以确保性能和开发效率。
+- **代码高亮与即时编码**: 通过集成 Shiki 和 Monaco Editor，slidev 提供了高质量的代码高亮和即时编码功能。
+- **多媒体功能**: 内置的 RecordRTC 允许用户录制演示文稿和使用摄像头视图，增强了演示的互动性。
+- **贡献者与社区支持**: 项目得到了大量贡献者的支持，并在 GitHub 上拥有大量的星标和叉子，反映了其在开发者社区的受欢迎程度。
+- **国际化**: 项目文档支持多种语言，便于全球开发者的使用和理解。
+- **开源许可**: slidevjs/slidev 遵循 MIT 许可证，鼓励开源社区的参与和贡献。
+- **演示文稿制作**: 提供了一个在线演示文稿制作平台，以及本地初始化项目的方法，使得创建演示文稿变得简单快捷。
+- **扩展功能**: 集成了 VueUse 生态系列、Iconify、Drauu 和 KaTeX 等工具，为演示文稿提供了额外的功能和美化效果。
+
+
+
+### [weibocom/rill-flow](https://github.com/weibocom/rill-flow) 工作流 ![GitHub stars](https://img.shields.io/github/stars/weibocom/rill-flow?style=social)
+
+Rill Flow 是一个高性能、可扩展的分布式工作流程编排引擎，支持大规模任务执行、分布式系统的协调调度、可视化流程编排、云原生部署以及大型语言模型（LLM）服务的快速集成。
+
+**摘要**
+
+Rill Flow 是一个开源的工作流程编排引擎，专为分布式工作负载和大型语言模型（LLM）设计，具备高性能和可扩展性。它能够支持每日执行数十万个任务，任务执行延迟低于 100ms，并且能够在异构的分布式系统中进行工作流程的协调和调度。Rill Flow 提供了直观的可视化流程编排工具和插件接入，方便用户使用。同时，它支持云原生的容器部署和函数编排，并且能够快速集成 LLM 模型服务。用户可以通过 GitHub 获取 Rill Flow 的源代码，并使用 Docker-Compose 在本地环境部署服务。项目的文档和中文文档都已提供，以帮助用户了解和使用 Rill Flow。此外，Rill Flow 遵循 Apache License 2.0，鼓励社区贡献。
+
+**特点**
+
+- **高性能与可扩展性**: Rill Flow 能够处理数十万的任务，并保持低延迟的执行。
+- **分布式系统支持**: 能够在多种分布式环境中进行工作流程的编排和调度。
+- **易用性**: 提供了可视化的流程编排和插件化的接入方式，简化了用户的操作流程。
+- **云原生**: 支持容器化部署和云原生的函数编排，适应现代云环境的需求。
+- **LLM 集成**: 能够快速集成大型语言模型服务，为工作流程编排提供强大的能力。
+- **开源与社区**: 作为一个开源项目，Rill Flow 鼓励社区成员的参与和贡献，并提供了详细的文档支持。
+- **许可证**: 项目采用 Apache License 2.0 许可，确保了软件的开放性和可商业化。
+
+
+### [xszyou/Fay](https://github.com/xszyou/Fay) 数字人 ![GitHub stars](https://img.shields.io/github/stars/xszyou/Fay?style=social)
+
+xszyou/Fay 项目的 `fay-sales-edition` 分支是一个开源的数字人框架，专门针对带货版本，用于构建虚拟主播、商品推销和导购等应用场景。该框架具有模块化设计，支持声音来源、语音识别、情绪分析、自然语言处理、情绪语音合成等多个模块的轻松替换。
+
+**摘要**
+
+xszyou/Fay 项目的 `fay-sales-edition` 分支是一个开源的数字人框架，旨在为虚拟主播、商品推销和导购等应用场景提供技术支持。该框架的模块化设计使得声音来源、语音识别、情绪分析、自然语言处理、情绪语音合成等模块之间的耦合度非常低，易于更换和定制。项目提供了详细的安装和使用说明，包括环境配置、依赖安装、应用配置和启动方法。此外，还提供了与直播平台（如抖音、B站）相关的监测源码和操作教程，以及商务QQ 和公众号等联系方式供技术交流。项目遵循 GPL-3.0 许可证，并在 GitHub 上有 8.2k 个星标和 1.7k 个叉子。
+
+**特点**
+
+- **模块化设计**: Fay 框架的核心优势在于其高度模块化的架构，允许用户根据需求轻松替换和定制各个功能模块。
+- **多场景应用**: 该框架支持多种数字人应用场景，包括虚拟主播、商品推销、商品导购等。
+- **详细的文档和支持**: 项目提供了详细的安装、配置和使用说明，以及相关的监测源码和操作教程，确保用户能够顺利部署和使用。
+- **社区和交流**: 项目鼓励社区参与和交流，提供了商务QQ 和公众号等联系方式，以及微信技术交流群的加入方式。
+- **开源许可**: Fay 框架遵循 GPL-3.0 许可证，促进了开源社区的贡献和分享。
+- **项目活跃度**: 通过 GitHub 上的星标和叉子数量，可以看出该项目具有较高的社区关注度和活跃度。
+  
+
+### [OpenTalker/video-retalking](https://github.com/OpenTalker/video-retalking) 视频合成 ![GitHub stars](https://img.shields.io/github/stars/OpenTalker/video-retalking?style=social)
+**OpenTalker/video-retalking** 是一个基于 SIGGRAPH Asia 2022 的项目，提供了一种基于音频的嘴唇同步技术，用于在野外（In the Wild）编辑说话头视频。
+
+**摘要**
+
+该项目托管在 GitHub 上，名为 `video-retalking`，由 OpenTalker 团队维护。项目主要用于在视频编辑中实现嘴唇同步，适用于任意音频和头部视频。项目目前有 5.8k 个星标和 853 个叉子，表明其在社区中有较高的关注度。项目遵循 Apache-2.0 许可证，并且遵循一项行为准则。项目的最新提交包括代码修正和功能更新，如修复了类型错误，以及使项目与 Mac M1 电脑兼容。项目包含文档、示例、模型、第三方库和工具，以及其他辅助文件。此外，项目还包括一个自动化脚本 `inference_videoretalking.sh`，用于快速演示和测试。
+
+**特点**
+
+- **项目创新性**: `video-retalking` 项目提供了一种创新的方法来解决视频编辑中的嘴唇同步问题，这在视频后期制作和人物模拟等领域非常有用。
+- **社区参与**: 项目的高星标和叉子数量表明社区对该项目有很大的兴趣和参与度。
+- **跨平台兼容性**: 项目的更新显示，开发者致力于提高项目的兼容性，包括支持 Mac M1 电脑，这有助于吸引更广泛的用户群体。
+- **易用性**: 项目提供了详细的文档和示例，这有助于开发者和研究人员快速上手和使用该技术。
+- **开源许可和行为准则**: 采用 Apache-2.0 许可证和行为准则，为项目提供了清晰的合法框架和社区规范，这有助于维护一个健康的开源环境。
+
+
+### [streamlit/streamlit](https://github.com/streamlit/streamlit) 
+
+streamlit/streamlit 仓库是一个用于快速构建和分享数据应用程序的开源工具。
+
+**概述**
+
+GitHub 上的 streamlit/streamlit 仓库是 Streamlit 项目的官方代码仓库，该项目旨在提供一种更快的方式来构建和分享数据应用程序。用户可以通过创建列表来组织自己星标的仓库，并为这些列表添加名称和描述，甚至可以通过输入冒号 `:` 来添加表情符号。该仓库目前处于 Beta 阶段，鼓励用户提供反馈和报告错误。
+
+Streamlit 公共仓库提供了关注（Watch）、叉子（Fork）和取消星标（Unstar）的功能。用户可以通过 fork 仓库来创建自己的副本，并且可以选择接收 iOS 或 Android 上的推送通知。此外，仓库还包括 Apache-2.0 许可证、行为准则和安全策略。截至目前，该仓库有 32.4k 个星标、2.8k 个叉子和 316 个关注者。
+
+最新的提交信息显示，LukasMasuch 在 2024 年 5 月 25 日移除了遗留的缓存逻辑，该更改通过拉取请求 #8737 合并到了主分支。该仓库共有 6,353 个提交，记录了项目的完整历史。
+
+**特点**
+
+- Streamlit 是一个开源工具，用于简化数据应用程序的开发和分享过程。
+- GitHub 仓库提供了与社区互动的功能，如创建列表、星标、关注和叉子，以及反馈和错误报告。
+- Streamlit 遵循 Apache-2.0 许可证，并遵循明确的行为准则和安全策略。
+- 仓库的活跃性和社区参与度可以通过星标、叉子和关注者的数量来衡量。
+- 项目历史和更新记录通过提交历史和最新的提交信息来展示，反映了项目的持续发展和维护。
+
+### [BasedHardware/OpenGlass](https://github.com/BasedHardware/OpenGlass) 智能硬件 ![GitHub stars](https://img.shields.io/github/stars/BasedHardware/OpenGlass?style=social)
+BasedHardware/OpenGlass 项目旨在通过使用不到 $25 的普通零件，将任何眼镜转换为可黑客的智能眼镜，功能包括生活录制、识别人物和物品、翻译文本等。
+
+**摘要**
+
+BasedHardware/OpenGlass 是一个开源项目，它允许用户通过集成少量低成本的电子组件，如 Seeed Studio XIAO ESP32 S3 Sense、EEMB LP502030 3.7v 250mAH 电池和3D 打印的眼镜支架壳体，将普通眼镜升级为智能眼镜。这些智能眼镜能够录制生活、识别人物和物品、翻译文本等。项目的 GitHub 仓库提供了详细的硬件和软件安装指南，包括如何使用 Arduino IDE 编程和如何配置必要的 API 密钥。用户可以通过克隆仓库并安装依赖项来开始使用，同时还可以选择购买预制的版本。OpenGlass 支持使用 Groq 和 OpenAI 的 API，并且对于 Ollama 服务，用户需要自行托管 REST API。该项目遵循 MIT 许可证，并且在 GitHub 上拥有 2k 个星标和 35 个观察者。
+
+**特点**
+
+- **开源智能眼镜**: OpenGlass 项目提供了一个开源解决方案，使得任何人都能通过低成本的方式制作智能眼镜。
+- ** DIY 定制**: 项目鼓励 DIY 精神，提供了详细的指南和文件，让用户可以自行定制和升级他们的智能眼镜。
+- **社区支持**: 项目拥有一个活跃的社区，用户可以通过 Based Hardware Discord 频道获取帮助和贡献指南。
+- **技术要求**: 用户需要具备一定的技术知识，如使用 Arduino IDE 进行编程、配置 ESP32 开发板和管理 API 密钥。
+- **多功能应用**: OpenGlass 支持多种功能，如生活录制、人物识别、物品识别和文本翻译，这些功能由集成的 AI 技术提供支持。
+- **预制版本**: 对于不想自己组装的用户，项目计划提供有限数量的预制版本。
+- **许可和参与**: 项目采用 MIT 许可证，鼓励社区成员的参与和贡献，目前已有 7 名贡献者。
+- **编程语言**: 项目主要使用 C、TypeScript 和 C++ 等编程语言开发。
+- **项目活跃度**: 截至目前，项目在 GitHub 上有 2k 个星标、35 个观察者和 219 个叉子，表明项目具有较高的社区兴趣和活跃度。
+
+### [modelscope/data-juicer](https://github.com/modelscope/data-juicer) 数据处理 ![GitHub stars](https://img.shields.io/github/stars/modelscope/data-juicer?style=social)
+
+Data-Juicer 是一个一站式的多模态数据处理系统，旨在提高数据质量，使其更适合大型语言模型（LLMs）的消化。
+
+**摘要**
+
+Data-Juicer 是一个专门为大型语言模型设计的一站式多模态数据处理系统，它提供了80多种核心操作符（OPs）、20多个可重用的配置食谱和20多个功能丰富的专用工具包，以支持高效的数据处理流程。该系统支持数据和模型的协同开发，包括数据反馈循环、可视化和多维度自动评估功能。Data-Juicer 优化了数据处理流程，减少了内存和CPU的使用，并支持并行处理。它提供了多种数据预处理配方，适用于预训练、微调等多种场景，并且支持多种数据格式和自定义OPs。用户可以通过命令行工具、Docker或直接从源代码安装Data-Juicer。此外，Data-Juicer 还提供了详细的文档和演示，以及一个在线播放器，让用户可以直接在浏览器中体验数据处理和可视化。
+
+**特点**
+
+- **系统化与可重用性**: Data-Juicer 提供了一个系统化的库，包含多种操作符和配置食谱，以及专用的工具包，这些都是为了提高数据处理的效率和质量。
+- **数据反馈与沙盒环境**: 该系统支持数据和模型的协同开发，允许快速迭代和评估，帮助用户更好地理解和改进数据和模型。
+- **高效的数据处理**: Data-Juicer 通过并行处理流程和内存优化，提供了高效的数据处理能力，支持多种Python版本和第三方库。
+- **灵活性与扩展性**: 该系统支持多种数据格式，并允许用户自定义OPs，以实现灵活的数据处理。
+- **易用性**: Data-Juicer 提供了易于理解的配置选项和全面的文档，以及演示配置和在线播放器，以便用户轻松上手。
+- **社区与支持**: Data-Juicer 鼓励用户参与贡献，提供了Slack频道和DingDing群组，以促进LLM数据开发和研究的交流。
+- **持续更新**: Data-Juicer 正在积极维护和更新，定期增加新功能、数据食谱和数据集。
+  
+
+### [Kanaries/pygwalker](https://github.com/Kanaries/pygwalker) 数据可视化 ![GitHub stars](https://img.shields.io/github/stars/Kanaries/pygwalker?style=social)
+
+**pygwalker** 是一个开源项目，旨在通过转换 pandas 数据框架为交互式 UI，帮助用户进行数据可视化分析。
+
+**概述**
+
+**pygwalker** 项目的 GitHub 仓库由 Kanaries 维护，目前拥有 10.3k 的星标和 513 个叉子。项目的最新提交包括添加了一个 web 服务器模式，以及更新了 dsl_parser 的版本。项目遵循 Apache-2.0 许可证，并且提供了多种方式来关注项目的更新，包括通知设置和在 iOS 或 Android 设备上接收推送通知。此外，仓库还包含了一系列的文件夹和文件，如 `.github`、`app`、`bin`、`docs`、`examples`、`pygwalker`、`pygwalker_tools` 和 `scripts`，每个部分都有最近的提交记录和消息，展示了项目的不同方面，包括文档、示例代码、工具和测试用例。项目的开发历史可以追溯到 527 个提交，表明这是一个积极维护的项目。
+
+**特点**
+
+- **pygwalker** 项目通过将 pandas 数据框架转换为交互式 UI 来简化数据可视化和分析过程。
+- 项目拥有活跃的社区支持，这从星标和叉子的数量以及历史提交次数中可以看出。
+- 项目遵循 Apache-2.0 许可证，这为用户和开发者提供了使用和修改的灵活性。
+- 通过提供不同的文件夹和文件，项目为用户和贡献者提供了详细的文档、示例和工具，以便更好地理解和使用 pygwalker。
+- 项目的最新更新包括新的 web 服务器模式和 API 的添加，这表明项目正在不断进步和扩展其功能。
+- GitHub 仓库提供了多种方式来关注项目动态，包括通知设置和移动设备推送通知，这有助于用户及时了解项目的最新进展。
+
+
+### [e-p-armstrong/augmentoolkit](https://github.com/e-p-armstrong/augmentoolkit) 数据集构建 ![GitHub stars](https://img.shields.io/github/stars/e-p-armstrong/augmentoolkit?style=social)
+
+
+
+`augmentoolkit` 是一个开源工具，用于将原始文本转换为高质量的领域特定的指令数据集，支持使用本地模型或多种API（如Mistral, Together.ai, Groq, OpenAI）进行数据生成，适用于不同规模的计算资源，特别适合AI SAAS初创公司创建专业的大型语言模型训练数据集。
+
+**概述**
+
+`augmentoolkit` 项目由 `e-p-armstrong` 在GitHub上维护，旨在通过本地模型简化数据收集过程，创建高质量的数据集。该工具支持多种开源模型API，包括Mistral、Together.ai和Groq，以及OpenAI API。它不需要高端计算机，甚至可以使用免费的API服务提供商的积分来创建数据集。`augmentoolkit` 具有异步运行的能力，可以快速生成数据集，并且支持通过YAML配置文件自定义选项，而不需要修改代码。该工具支持聊天和完成式提示，允许用户通过配置文件管理输出和原始文本输入路径，并且可以轻松切换不同的提示。项目已经进行了代码重构，以便更容易地进行自定义修改，同时提供了一个Discord社区用于讨论数据集生成。此外，`augmentoolkit` 还提供了专业的咨询服务，帮助企业根据需要定制数据集和数据生成工具。
+
+**特点**
+
+- **开源与便捷性**: `augmentoolkit` 是一个开源工具，旨在提供一个简单、便捷的方式来生成领域特定的数据集，无论是使用本地模型还是外部API。
+- **适用性广泛**: 该工具适用于不同规模的计算资源，包括普通计算机和高性能计算机，同时也支持使用API服务。
+- **成本效益**: 用户可以利用API服务提供商的免费积分来创建数据集，降低了数据生成的成本。
+- **易于自定义**: 通过YAML配置文件，用户可以轻松自定义数据集生成的选项，而无需深入代码。
+- **异步运行**: `augmentoolkit` 支持异步运行，使得数据集的生成过程更加高效。
+- **社区支持**: 用户可以在Discord社区中获得支持，与其他用户和开发者交流使用经验和最佳实践。
+- **专业咨询服务**: 对于需要定制数据集和数据生成工具的企业，`augmentoolkit` 提供了专业的咨询服务，帮助企业快速实现其目标。
+
+## 算法
+
+### [naklecha/llama3-from-scratch](https://github.com/naklecha/llama3-from-scratch) ![GitHub stars](https://img.shields.io/github/stars/naklecha/llama3-from-scratch?style=social)
+
+该网页是一个开源项目 `naklecha/llama3-from-scratch`，详细介绍了如何从头开始实现 LLaMA3 模型，包括了解模型结构、加载权重、编写代码以及最终预测结果的过程。
+
+**摘要**
+
+`naklecha/llama3-from-scratch` 项目是一个关于实现 LLaMA3 模型的教程，它逐步指导如何使用 Python 和 PyTorch 库，从加载预训练权重开始，到如何处理输入文本、实现自注意力机制、位置编码、多头注意力、前馈神经网络以及最终的输出层。作者 Naklecha 通过详细的代码示例和解释，展示了如何一步一步构建 LLaMA3 模型，并通过一个示例输入文本 "the answer to the ultimate question of life, the universe, and everything is " 来验证模型的预测能力。最终，模型成功预测出了数字 "42"，这是文化作品《银河系漫游指南》中提到的宇宙终极问题的答案，从而验证了实现的正确性。此外，作者还提供了项目的背景信息、如何支持作者的工作，以及他的研究动机。
+
+**特点**
+
+1. **LLaMA3 模型的实现需要对模型架构有深入的理解**，包括自注意力机制、位置编码、多头注意力和前馈神经网络等。
+2. **权重的加载和处理是实现过程中的关键步骤**，需要正确地从预训练模型文件中提取并加载权重参数。
+3. **代码的详细注释和解释对于理解模型的工作原理至关重要**，作者通过详细的代码注释和解释，使读者能够跟随步骤并理解每个部分的作用。
+4. **实现过程中使用了 RoPE（Rotary Position Embedding）来处理位置信息**，这对于模型理解和处理序列中的位置关系至关重要。
+5. **最终的预测验证了模型的有效性**，通过预测出文化常识中的著名答案 "42"，展示了模型的预测能力和实现的正确性。
+6. **开源项目和社区支持对于推动研究和实践的进步至关重要**，作者鼓励读者通过社交媒体和捐赠来支持他的工作，以及参与到 A10 研究实验室的活动中来。
+
 ## 研究论文
 
 - **论文标题**：论文贡献和发现的简要总结。
