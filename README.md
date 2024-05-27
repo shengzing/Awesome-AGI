@@ -14,7 +14,7 @@
 		- [QAnything ](#qanything-)
 		- [open-webui/open-webui ](#open-webuiopen-webui-)
 		- [QuivrHQ/quivr ](#quivrhqquivr-)
-		- [rashadphz/farfalle 搜索 ](#rashadphzfarfalle-搜索-)
+		- [⭐️ rashadphz/farfalle 搜索 ](#️-rashadphzfarfalle-搜索-)
 		- [truefoundry/cognita ](#truefoundrycognita-)
 		- [toeverything/AFFiNE ](#toeverythingaffine-)
 		- [rashadphz/farfalle ](#rashadphzfarfalle-)
@@ -72,6 +72,7 @@
 		- [AgentOps-AI/agentops 监控 ](#agentops-aiagentops-监控-)
 		- [nocobase/nocobase 无代码 ](#nocobasenocobase-无代码-)
 		- [wanglin2/mind-map 思维导图 ](#wanglin2mind-map-思维导图-)
+		- [aieditor-team/AiEditor 富文本 ](#aieditor-teamaieditor-富文本-)
 	- [算法](#算法)
 		- [naklecha/llama3-from-scratch ](#naklechallama3-from-scratch-)
 		- [lencx/Noi ](#lencxnoi-)
@@ -181,7 +182,7 @@ QuivrHQ/quivr 项目的 GitHub 页面提供了关于该项目的详细信息，�
 - **资源优化**: 通过增加 CPU 和内存资源的分配，项目提升了 AWS 服务的性能，这对于处理大型工作负载至关重要。
 - **开发环境的便捷性**: 通过更新 `.devcontainer` 文件，项目提供了一个预配置的开发环境，这简化了开发者的设置过程，并确保了一致性的开发环境。
 
-### [rashadphz/farfalle](https://github.com/rashadphz/farfalle) 搜索 ![GitHub stars](https://img.shields.io/github/stars/rashadphz/farfalle?style=social)
+### ⭐️ [rashadphz/farfalle](https://github.com/rashadphz/farfalle) 搜索 ![GitHub stars](https://img.shields.io/github/stars/rashadphz/farfalle?style=social)
 
 `rashadphz/farfalle` 是一个开源的 AI 搜索引擎项目，允许用户通过本地或云端的大型语言模型（LLMs）进行搜索和问题回答。
 
@@ -1213,6 +1214,27 @@ AgentOps 的使命是将 AI 代理从原型推向生产环境，它是评估、�
 - **社区支持**: 提供了微信交流群作为技术支持和交流平台，同时也接受用户的财务支持。
 - **版权和商业化**: 项目采用MIT协议，允许商业使用，但需保留版权声明，如需去除版权声明，需与作者联系。
 - **持续更新**: 项目近期有更新记录，表明项目仍在积极维护和更新中。
+
+
+### [aieditor-team/AiEditor](https://github.com/aieditor-team/AiEditor) 富文本 ![GitHub stars](https://img.shields.io/github/stars/aieditor-team/AiEditor?style=social)
+
+AiEditor 是一个面向 AI 的下一代富文本编辑器，支持多种前端框架，提供丰富的文本编辑功能，适用于 PC 和移动端，并支持定制化配置。
+
+**概述**
+
+AiEditor 是一个基于 Web Component 的富文本编辑器，专为 AI 设计，兼容 Vue、React、Angular 和 Svelte 等前端框架。它提供了两种主题——浅色和深色，并支持 PC Web 和移动端使用。AiEditor 的功能包括基础文本编辑（如标题、段落、字体样式、超链接、代码片段等），增强功能（如撤销、重做、格式刷、清除格式、待办事项列表、背景颜色、表情、对齐、行高等），附件处理（如图片、视频和文件功能，支持多种上传方式），代码编辑（如内联代码、代码块、AI 注释和解释等），表格操作（如单元格合并与分割），Markdown 支持（如标题、引用、表格、图片、代码块等），以及 AI 相关功能（如 AI 续写、优化、校对、翻译等）。此外，AiEditor 还支持国际化（i18n）、主题切换、移动端适配、全屏编辑和提及功能。项目的快速开始指南位于其官方网站，用户可以通过 QQ 群进行交流。AiEditor 遵循 LGPL-2.1 许可证，目前有 383 颗星标、4 个观察者和 43 个分支。最新版本为 v1.0.0-rc.9，发布于 2024 年 3 月 24 日。
+
+**特点**
+
+- **多框架支持**: AiEditor 设计为基于 Web Component 的编辑器，因此几乎兼容所有现代前端框架。
+- **丰富的编辑功能**: AiEditor 提供了包括基础文本编辑、增强功能、附件处理、代码编辑、表格操作、Markdown 支持和 AI 相关功能在内的全面编辑功能。
+- **适应性强**: 编辑器支持浅色和深色主题，适用于 PC Web 和移动端，具有良好的适应性。
+- **定制化配置**: 开发者可以通过 AiEditor 的灵活配置来轻松开发任何文本编辑应用程序。
+- **AI 集成**: AiEditor 特别强调了 AI 功能的集成，如 AI 续写、优化、校对和翻译，以及自定义 AI 菜单和提示。
+- **社区和文档支持**: 项目提供了 QQ 群作为交流平台，并在官方网站上提供了详细的文档和快速开始指南。
+- **开源许可**: AiEditor 遵循 LGPL-2.1 许可证，促进了开源社区的贡献和使用。
+- **项目活跃度**: 通过 GitHub 上的星标、观察者和分支数量，可以看出项目具有较高的活跃度和社区兴趣。
+
 
 ## 算法
 
