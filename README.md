@@ -17,7 +17,6 @@
 		- [⭐️ rashadphz/farfalle 搜索 ](#️-rashadphzfarfalle-搜索-)
 		- [truefoundry/cognita ](#truefoundrycognita-)
 		- [toeverything/AFFiNE ](#toeverythingaffine-)
-		- [rashadphz/farfalle ](#rashadphzfarfalle-)
 		- [weaviate/Verba ](#weaviateverba-)
 		- [vercel/ai-chatbot ](#vercelai-chatbot-)
 		- [Bin-Huang/chatbox 客户端 ](#bin-huangchatbox-客户端-)
@@ -73,6 +72,7 @@
 		- [nocobase/nocobase 无代码 ](#nocobasenocobase-无代码-)
 		- [wanglin2/mind-map 思维导图 ](#wanglin2mind-map-思维导图-)
 		- [aieditor-team/AiEditor 富文本 ](#aieditor-teamaieditor-富文本-)
+		- [VikParuchuri/surya 抽取 ](#vikparuchurisurya-抽取-)
 	- [算法](#算法)
 		- [naklecha/llama3-from-scratch ](#naklechallama3-from-scratch-)
 		- [lencx/Noi ](#lencxnoi-)
@@ -242,23 +242,6 @@ AFFiNE（发音为 [ə‘fain]）是一个开源的下一代知识库，它旨�
 - 项目的受欢迎程度可以从其在 GitHub 上的星标和分支数量中看出。
 - 通过GitHub Sponsors，用户可以为 AFFiNE 项目提供资金支持。
 - GitHub Codespaces的集成，允许用户在云端环境中直接编辑和运行项目代码。
-
-### [rashadphz/farfalle](https://github.com/rashadphz/farfalle) ![GitHub stars](https://img.shields.io/github/stars/rashadphz/farfalle?style=social)
-
- 是一个开源的 AI 搜索引擎项目，支持使用本地 LLM（如 llama3、gemma、mistral、phi3）或云端模型（如 Groq/Llama3、OpenAI/gpt4-o）进行搜索和问题回答。
-
-**摘要**
-rashadphz/farfalle 项目是一个类似 Perplexity 的 AI 搜索引擎，允许用户通过本地或云端的大型语言模型（LLM）进行搜索。项目的技术栈包括前端使用 Next.js、后端使用 FastAPI、搜索 API 可选择 SearXNG 或 Tavily、使用 Logfire 进行日志记录以及 Redis 进行速率限制。项目支持多种搜索提供商和本地模型，同时提供了 Docker 部署的支持和设置指南。用户可以通过克隆仓库、配置环境变量、运行 Docker 容器来本地启动项目，并可以通过 Vercel 部署前端。项目还提供了如何将 Farfalle 设置为默认搜索引擎的说明。
-
-**特点**
-- 开源 AI 搜索引擎: rashadphz/farfalle 是一个开源项目，旨在提供一个 AI 驱动的搜索引擎，可以使用本地或云端的 LLM 进行搜索和问题解答。
-- 支持多种 LLM: 项目支持多种本地和云端的大型语言模型，包括但不限于 llama3、gemma、mistral、phi3、Groq/Llama3、OpenAI/gpt4-o。
-- 技术栈: 前端采用 Next.js，后端使用 FastAPI，搜索 API 可以选择 SearXNG 或 Tavily，同时使用 Logfire 进行日志记录和 Redis 进行速率限制。
-- 部署和使用: 提供了详细的本地部署指南和云端部署说明，包括环境变量配置、Docker 容器运行等步骤。
-- 搜索引擎集成: 用户可以将 Farfalle 设置为浏览器的默认搜索引擎，以便更方便地使用。
-- 社区参与: 项目鼓励社区参与，提供了如何贡献代码和报告问题的指南。
-- 项目活跃度: 项目在 GitHub 上有较高的星标和叉子数量，表明社区对其有一定的兴趣和参与度。
-- 编程语言: 项目主要使用 TypeScript 和 Python 编写，同时也包含了 CSS 和 JavaScript。
 
 
 
@@ -1234,6 +1217,33 @@ AiEditor 是一个基于 Web Component 的富文本编辑器，专为 AI 设计�
 - **社区和文档支持**: 项目提供了 QQ 群作为交流平台，并在官方网站上提供了详细的文档和快速开始指南。
 - **开源许可**: AiEditor 遵循 LGPL-2.1 许可证，促进了开源社区的贡献和使用。
 - **项目活跃度**: 通过 GitHub 上的星标、观察者和分支数量，可以看出项目具有较高的活跃度和社区兴趣。
+
+
+### [VikParuchuri/surya](https://github.com/VikParuchuri/surya) 抽取 ![GitHub stars](https://img.shields.io/github/stars/VikParuchuri/surya?style=social)
+
+
+VikParuchuri/surya 是一个支持 90 多种语言的文档 OCR 工具包，提供 OCR、文本行检测、版面分析和阅读顺序检测功能。
+
+**摘要**
+
+VikParuchuri/surya 是一个开源的文档 OCR 工具包，能够在 90 多种语言中进行 OCR，并且在 OCR 性能、文本行检测、版面分析和阅读顺序检测方面与云服务相比具有较高的准确性和性能。该工具包支持多种文档类型，如书籍、报纸、学术论文等，并且提供了一个交互式的 Streamlit 应用程序供用户体验。
+
+对于商业使用，surya 提供了 cc-by-nc-sa-4.0 许可证，但对于收入和资金限制的组织，可能会豁免该限制。安装 surya 需要 Python 3.9+ 和 PyTorch，并且提供了详细的使用指南和性能优化建议。用户可以通过命令行或 Python 代码来使用 surya 的不同功能，如文本识别、文本行检测、版面分析和阅读顺序检测。此外，surya 还提供了详细的基准测试结果，展示了其与其他 OCR 工具如 Tesseract 和 Google Cloud Vision 相比的优势。
+
+开发者可以通过手动安装和运行基准测试来进一步评估 surya 的性能。surya 的训练过程使用了 NVIDIA 的 Segformer 和 Naver 的 Donut 等开源 AI 工作的贡献。
+
+**特点**
+
+- **OCR 性能**: surya 在 OCR 方面表现出色，与 Tesseract 和 Google Cloud Vision 相比，具有更高的文本相似性和更快的处理速度。
+- **文本行检测**: surya 的文本行检测精度和召回率优于 Tesseract，且具有更快的处理速度。
+- **版面分析**: surya 在 Publaynet 数据集上的版面分析表现良好，精确度和召回率均高于 90%。
+- **阅读顺序**: surya 在阅读顺序检测方面达到了 75% 的平均准确率，且处理速度快。
+- **性能优化**: surya 提供了多种性能优化建议，包括调整批处理大小和使用 GPU 加速等。
+- **开源贡献**: surya 的开发受益于开源 AI 社区的贡献，包括 Segformer、Donut、transformers 和 CRAFT。
+- **商业使用限制**: surya 的商业使用受到一定限制，但对于小型组织提供了豁免条款。
+- **安装和使用**: surya 提供了详细的安装指南和使用示例，方便开发者和用户快速上手。
+- **基准测试**: surya 提供了基准测试脚本，允许用户在自己的硬件上评估性能。
+- **训练细节**: surya 的文本检测和识别模型通过使用多个 A6000 GPU 进行了数天到数周的训练。
 
 
 ## 算法
