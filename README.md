@@ -32,8 +32,10 @@
 		- [khoj-ai/khoj AI助手 ](#khoj-aikhoj-ai助手-)
 		- [weaviate/Verba ](#weaviateverba--1)
 		- [stanford-oval/storm 报告 ](#stanford-ovalstorm-报告-)
+		- [ihmily/outfit-anyone 虚拟试穿 ](#ihmilyoutfit-anyone-虚拟试穿-)
 	- [服务项目](#服务项目)
 		- [ollama ](#ollama-)
+		- [Hujiazeng/Vach 数字人 ](#hujiazengvach-数字人-)
 		- [janhq/jan](#janhqjan)
 		- [modelscope/swift  训练模型 ](#modelscopeswift--训练模型-)
 		- [modelscope/DashInfer 推理 ](#modelscopedashinfer-推理-)
@@ -58,6 +60,8 @@
 		- [mendableai/firecrawl-py 抽取 ](#mendableaifirecrawl-py-抽取-)
 		- [josStorer/chatGPTBox 浏览器插件 ](#josstorerchatgptbox-浏览器插件-)
 		- [⭐️ continuedev/continue IDE插件 ](#️-continuedevcontinue-ide插件-)
+		- [NaiboWang/EasySpider 爬虫框架 ](#naibowangeasyspider-爬虫框架-)
+- [总结](#总结)
 		- [langchain-ai/langchain-nextjs-template 构建工具 ](#langchain-ailangchain-nextjs-template-构建工具-)
 		- [slidevjs/slidev PPT ](#slidevjsslidev-ppt-)
 		- [weibocom/rill-flow 工作流 ](#weibocomrill-flow-工作流-)
@@ -77,6 +81,7 @@
 		- [quickwit-oss/tantivy 搜索 ](#quickwit-osstantivy-搜索-)
 		- [VikParuchuri/surya 抽取 ](#vikparuchurisurya-抽取--1)
 		- [360AILAB-NLP/360LayoutAnalysis 抽取 ](#360ailab-nlp360layoutanalysis-抽取-)
+		- [PawanOsman/ChatGPT 代理 ](#pawanosmanchatgpt-代理-)
 	- [算法](#算法)
 		- [naklecha/llama3-from-scratch ](#naklechallama3-from-scratch-)
 		- [lencx/Noi ](#lencxnoi-)
@@ -548,6 +553,28 @@ Verba 是一个基于 Weaviate 的 RAG 聊天机器人，它允许用户通过�
 - 项目的文档目前仍在进行中，但已经提供了详细的使用说明和示例脚本，以便用户可以快速上手和定制系统。
 - **storm** 项目的成果已经在 NAACL 2024 会议上发表，并提供了复现实验结果的指导和代码备份。
 
+### [ihmily/outfit-anyone](https://github.com/ihmily/outfit-anyone) 虚拟试穿 ![GitHub stars](https://img.shields.io/github/stars/ihmily/outfit-anyone?style=social)
+
+
+
+**Outfit Anyone** 是一个位于 GitHub 上的公共项目仓库，提供了一个超高质量的虚拟试穿服务，适用于任何服装和任何人物，但实际上并非完全开源，因为其模型是固定的，不支持用户上传或修改模型，仅允许用户上传自己的服装图片。
+
+**摘要**
+
+**Outfit Anyone** 项目是一个专注于超高质量虚拟试穿技术的客户端，用于调用接口服务。该项目的模型并非开源，用户无法上传或修改模型，但可以上传自己的服装资料。项目目前有 466 颗星标、34 个叉子和 2 个观察者。项目使用 Python 3.10 进行测试，并在 Ubuntu 22.04 和 RTX 4090 环境下运行。用户可以通过克隆代码、安装依赖、设置环境变量并运行 `app.py` 来启动项目。如果 `OA_IP_ADDRESS` 环境变量中的地址失效，用户应该联系作者更新或自行访问 Hugging Face Space 获取最新地址。项目遵循 Apache-2.0 许可证。
+
+**特点**
+
+- **项目功能**: **Outfit Anyone** 提供了一个虚拟试穿平台，允许用户将自己的服装图片与人物图片结合，以体验试穿效果。
+- **开源限制**: 尽管项目托管在 GitHub 上，但其核心模型并不完全开源，用户无法对模型进行上传或修改。
+- **使用条件**: 项目需要 Python 3.10 环境，并在特定的硬件配置下测试，推荐使用 Ubuntu 22.04 和 RTX 4090。
+- **运行步骤**: 用户需要克隆代码库、安装依赖、配置环境变量，最后运行 `app.py` 脚本来启动服务。
+- **环境变量**: `OA_IP_ADDRESS` 环境变量用于指定模型 API 的地址，如果地址失效，用户需要更新或从 Hugging Face Space 获取。
+- **许可证**: 项目使用 Apache-2.0 许可证，这意味着用户可以自由地使用、复制、修改和分发该项目，但必须遵守许可证的条款。
+- **社区反馈**: 项目在 GitHub 上获得了 466 颗星标和 34 个叉子，显示出社区的积极参与和认可。
+- **项目活动**: 项目最近的提交是在 2024 年 5 月 6 日，表明项目仍在积极维护和更新中。
+- **支持资源**: 项目提供了中英文的 README 文档，方便不同语言的用户了解和使用。
+
 ## 服务项目
 
 ### [ollama](https://github.com/ollama/ollama) ![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
@@ -570,6 +597,28 @@ ollama 项目是一个开源框架，旨在帮助用户快速开始使用 Llama 
 - MIT 许可证: 采用宽松的 MIT 许可证，有利于技术的广泛传播和商业应用。
 
 
+### [Hujiazeng/Vach](https://github.com/Hujiazeng/Vach) 数字人 ![GitHub stars](https://img.shields.io/github/stars/Hujiazeng/Vach?style=social)
+
+
+**Hujiazeng/Vach** 是一个开源项目，提供了一个实时流式的数字人头部聊天系统，支持文本和语音交互，并且可以与SyncTalk项目协同工作，包括声音克隆和直播间业务，适用于展厅显示屏互动，已经可以达到商用效果。
+
+**摘要**
+
+**Hujiazeng/Vach** 项目是一个在GitHub上公开的仓库，专注于实现音视频同步的数字人头部聊天系统。该项目目前获得了294个星标和9个监视者，并有41个分叉。项目的最新提交是在2024年5月17日，主要进行了全身推理性能优化。项目结构包括模块如 `ai_module`、`core`、`links`、`talkers` 和 `web`，以及关键文件 `.gitignore`、`README.md`、`app.py` 和 `requirements.txt`。
+
+项目支持的特性包括文本和语音交互、SyncTalk项目的支持、声音克隆、直播间业务和展厅显示屏互动。安装依赖需要Python 3.10环境，以及特定版本的Pytorch和CUDA。项目提供了预训练模型下载和测试，用户也可以替换成自己训练的模型。快速启动项目可以通过执行 `python app.py` 命令，并且可以通过 `--mike` 参数开启麦克风监听功能。如果无法访问huggingface，需要设置环境变量 `HF_ENDPOINT`。
+
+项目的开发依赖于 `aiortc`、`ER-NeRF` 和 `SyncTalk`。语言使用情况主要是Python，其次是Cuda、HTML、C、C++和JavaScript。
+
+**特点**
+
+- **项目创新性**: Hujiazeng/Vach 项目实现了流式数字人头部聊天系统，具有商用潜力，体现了人工智能在虚拟助手领域的应用前景。
+- **技术实现**: 项目依赖于先进的技术栈，如Pytorch、CUDA和Python，同时整合了其他开源项目的优势，如 `aiortc`、`ER-NeRF` 和 `SyncTalk`，展现了开源生态的协作力量。
+- **用户交互**: 支持多种交互方式，包括文本和语音，提供了丰富的用户体验，适应了不同的应用场景，如直播互动和展厅互动。
+- **社区支持**: 项目鼓励用户参与，提供了详细的安装和使用指南，同时开设了交流群以促进社区成员之间的交流和协作。
+- **性能优化**: 项目不断进行性能优化，如全身推理性能优化，确保了系统的实时性和流畅性。
+- **模块化设计**: 项目采用模块化设计，方便用户理解和扩展，同时也便于项目的维护和更新。
+- **多平台支持**: 提供了跨平台的安装方案，支持Ubuntu系统，并且可以通过Web界面进行交互，增加了项目的可访问性。
 
 ### [janhq/jan](https://github.com/janhq/jan)![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
 
@@ -954,6 +1003,25 @@ continuedev/continue 项目的 GitHub 页面展示了该项目的基本信息和
 - 项目的 GitHub 页面设计直观，方便用户快速浏览项目结构和活动。
 
 
+### [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) 爬虫框架 ![GitHub stars](https://img.shields.io/github/stars/NaiboWang/EasySpider?style=social)
+# 总结
+
+**EasySpider** 是一个免费的开源可视化爬虫软件，允许用户通过图形化界面设计和执行网页数据采集任务，同时支持命令行执行，便于集成到其他系统中。
+**摘要**
+
+EasySpider 是一个基于浏览器的自动化测试和数据采集工具，它允许用户无需编写代码即可进行爬虫任务的设计和执行。用户可以通过在网页上选择内容并按照提示操作来完成任务。软件支持图形界面操作和命令行模式，适用于各种级别的用户。GitHub 上的 EasySpider 项目已经有超过 27.7k 的星标和 3.2k 的叉子，表明其在开源社区中的流行度。此外，EasySpider 还支持嵌入式执行，可以很容易地集成到其他系统中。软件的开发和维护完全依赖于作者的热情和社区的支持，因此鼓励用户通过 GitHub Sponsors、支付宝、微信或 PayPal 等方式赞助作者。EasySpider 还提供了详细的文档和视频教程，帮助用户学习如何使用软件进行数据采集。用户还可以从项目的 Examples 文件夹中下载示例任务，并将其导入到 EasySpider 中进行学习和实践。软件的使用应遵守相关法律法规，不得用于违法操作，且对于政府和军事机构网站的爬取，作者不提供答疑支持。同时，软件的商业使用需要通过邮件与作者联系获取授权。EasySpider 还提供了一个答疑 QQ 群，供用户交流和解决问题。最后，EasySpider 在学术领域也有所贡献，其相关研究成果被 The Web Conference (WWW) 2023 接受，并获得了国家知识产权局的发明专利。
+
+**特点**
+
+- **易用性**: EasySpider 强调其无需编码的特点，使得即使是非技术用户也能轻松设计和执行爬虫任务。
+- **多功能性**: 软件不仅提供图形界面操作，还支持命令行模式，适应了不同用户的需求。
+- **社区支持**: EasySpider 得到了广泛的社区支持，反映在其高星标和叉子数量上。
+- **开源精神**: 作者鼓励用户通过赞助来支持软件的持续开发和维护。
+- **教育资源**: 提供了丰富的文档和视频教程，帮助用户更好地理解和使用软件。
+- **法律合规**: 明确提出用户在使用软件时必须遵守法律法规，尤其是针对政府和军事机构网站的爬取行为。
+- **商业授权**: 对于商业使用，需要通过邮件与作者联系获取授权，保护了软件的合法商业利益。
+- **学术贡献**: EasySpider 在学术界也有显著的影响，通过研究成果的发表和专利申请，展示了其在技术和学术上的创新。
+- 
 ### [langchain-ai/langchain-nextjs-template](https://github.com/langchain-ai/langchain-nextjs-template) 构建工具 ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain-nextjs-template?style=social)
  是一个结合了 LangChain 和 Next.js 的起始模板，用于展示如何使用和组合 LangChain 模块以实现多种使用案例，包括简单聊天、结构化输出、解答复杂问题、增强检索等。
 
@@ -1346,6 +1414,25 @@ Surya 的性能基准测试表明，它在文本行检测、布局分析和阅�
 - **论文和研报场景的特殊性**：在论文和研报的版式分析中，对段落和其他布局元素的细粒度识别和区分是关键。
 - **模型的优异性能**：开源的模型在封闭测试集上表现出色，能够准确识别和区分文档中的不同元素。
 - **开源许可和商业使用**：项目源码和模型开源，但商业使用需要通过邮件申请，并遵守《360LayoutAnalysis模型开源模型许可证》。
+
+
+### [PawanOsman/ChatGPT](https://github.com/PawanOsman/ChatGPT) 代理 ![GitHub stars](https://img.shields.io/github/stars/PawanOsman/ChatGPT?style=social)
+
+
+
+PawanOsman/ChatGPT 项目为用户提供了一个开源的 ChatGPT（gpt-3.5-turbo）API 反向代理，允许用户免费自行托管或通过其预托管的 API 访问 OpenAI 的高级人工智能功能，无需使用 API 密钥。
+
+**概述**
+
+PawanOsman/ChatGPT GitHub 仓库介绍了一个免费的 ChatGPT（gpt-3.5-turbo）API 反向代理服务。该项目允许用户不使用 OpenAI API 密钥即可访问 ChatGPT 服务。项目支持多种安装方式，包括使用 Docker 或 Docker Compose 运行，也可以在个人电脑或服务器上手动安装。对于 Android 用户，还提供了通过 Termux 安装的指南。此外，项目维护者提供了一个预托管的 API 服务，用户可以通过加入项目的 Discord 社区并获取 API 密钥来免费使用。该服务兼容 OpenAI 的官方 API 端点，并支持流式响应。项目采用 AGPL-3.0 许可证，并且欢迎社区贡献。
+
+**特点**
+
+- **免费访问**: 项目提供了一种免费的方式来使用 ChatGPT，这对于那些不想或不能直接从 OpenAI 购买 API 密钥的用户来说是一个显著的优势。
+- **易于安装和使用**: 通过支持 Docker、PC/服务器、Termux 等多种平台和环境，项目 lowered the barrier to entry，使得更多的用户能够轻松地自托管 ChatGPT API 反向代理。
+- **兼容性和流式响应**: 该反向代理与 OpenAI 的官方 API 端点兼容，允许无缝集成，并且支持流式响应，使得用户可以即时接收到 AI 的响应。
+- **社区支持**: 项目鼓励用户参与，提供了 Discord 社区以便用户交流和获取支持，同时也为项目提供了一个捐款途径。
+- **开源许可**: 项目的开源性质（AGPL-3.0 许可证）允许用户自由地使用、修改和分发代码，促进了社区的协作与创新。
 
 ## 算法
 
