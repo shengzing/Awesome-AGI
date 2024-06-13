@@ -24,6 +24,7 @@
 		- [langflow-ai/langflow ](#langflow-ailangflow-)
 		- [Mintplex-Labs/anything-llm 客户端 ](#mintplex-labsanything-llm-客户端-)
 		- [dissorial/doc-chatbot ](#dissorialdoc-chatbot-)
+		- [openai/openai-assistants-quickstart 应用模版 ](#openaiopenai-assistants-quickstart-应用模版-)
 		- [wandb/openui 代码生成 ](#wandbopenui-代码生成-)
 		- [⭐️ OpenDevin/OpenDevin 代码生成 ](#️-opendevinopendevin-代码生成-)
 		- [stitionai/devika 代码生成 ](#stitionaidevika-代码生成-)
@@ -73,6 +74,9 @@
 		- [wanglin2/mind-map 思维导图 ](#wanglin2mind-map-思维导图-)
 		- [aieditor-team/AiEditor 富文本 ](#aieditor-teamaieditor-富文本-)
 		- [VikParuchuri/surya 抽取 ](#vikparuchurisurya-抽取-)
+		- [quickwit-oss/tantivy 搜索 ](#quickwit-osstantivy-搜索-)
+		- [VikParuchuri/surya 抽取 ](#vikparuchurisurya-抽取--1)
+		- [360AILAB-NLP/360LayoutAnalysis 抽取 ](#360ailab-nlp360layoutanalysis-抽取-)
 	- [算法](#算法)
 		- [naklecha/llama3-from-scratch ](#naklechallama3-from-scratch-)
 		- [lencx/Noi ](#lencxnoi-)
@@ -381,6 +385,28 @@ dissorial/doc-chatbot 项目旨在通过 GPT、Pinecone 和 LangChain 的结合�
 - 开发和部署指导: 项目提供了详细的本地开发和部署指南，使得开发者能够更容易地设置和运行自己的实例。
 - 灵活性和可扩展性: 项目设计允许用户根据自己的需求调整和扩展功能，例如通过调整 QA_PROMPT 和 modelName 以适应不同的使用场景。
 - 社区贡献和灵感: 该项目衍生自 mayooear 的 GPT-4 & LangChain 仓库，并在此基础上进行了大量的修改和增强，同时也得到了 ChatGPT 前端设计的灵感。
+
+### [openai/openai-assistants-quickstart](https://github.com/openai/openai-assistants-quickstart) 应用模版 ![GitHub stars](https://img.shields.io/github/stars/openai/openai-assistants-quickstart?style=social)
+
+
+
+**openai-assistants-quickstart** 是一个使用 Next.js 和 OpenAI Assistants API 的快速启动模板，支持流式传输、工具使用（代码解释器和文件搜索）以及函数调用。
+
+**特点**
+
+该网页是 OpenAI Assistants API 与 Next.js 的快速启动项目的官方 GitHub 仓库。项目旨在提供一个使用 Assistants API 的模板，展示了流式聊天、函数调用、文件搜索和全功能示例。项目包含多个示例页面，所有功能都基于同一个助手实例。主要的聊天逻辑位于 `app/components/chat.tsx` 组件中，而与线程相关的 API 处理器位于 `api/assistants/threads/...`。项目鼓励用户基于此模板开始自己的项目，并提供了部署到 Vercel 或其他支持 Next.js 的平台的指南。此外，还提供了反馈表格的链接，以便用户提供意见和建议。项目使用 MIT 许可证，目前有 1.1k 个星标、84 个观察者和 184 个叉子。
+
+**特点**
+
+- **快速启动模板**: 该项目提供了一个快速启动的模板，使开发者能够快速集成并使用 OpenAI Assistants API。
+- **多功能展示**: 通过多个示例页面，展示了流式聊天、函数调用、文件搜索等功能。
+- **基于同一助手**: 所有示例都基于同一个助手实例，该助手具备所有展示的功能。
+- **组件复用**: 提供了可复用的 `Chat` 组件和与之相关的样式文件，方便开发者在自己的项目中使用。
+- **API 端点**: 项目包含了多个 API 端点，用于创建助手、线程、发送消息、执行操作以及管理文件。
+- **部署指南**: 提供了部署到 Vercel 的指南，也支持其他 Next.js 兼容的部署平台。
+- **社区反馈**: 鼓励用户通过提供的反馈表格来分享他们的想法和建议。
+- **开源许可**: 项目采用 MIT 许可证，鼓励开源社区的参与和贡献。
+- **项目活跃度**: 根据星标、观察者和叉子的数量，可以看出该项目在社区中具有一定的活跃度和受欢迎程度。
 
 ### [wandb/openui](https://github.com/wandb/openui) 代码生成 ![GitHub stars](https://img.shields.io/github/stars/wandb/openui?style=social)
  仓库提供了一个开源的 UI 描述工具，允许开发者使用想象力设计 UI，并实时查看渲染结果，同时支持将 HTML 转换为 React、Svelte 等多种框架。
@@ -1245,6 +1271,81 @@ VikParuchuri/surya 是一个开源的文档 OCR 工具包，能够在 90 多种�
 - **基准测试**: surya 提供了基准测试脚本，允许用户在自己的硬件上评估性能。
 - **训练细节**: surya 的文本检测和识别模型通过使用多个 A6000 GPU 进行了数天到数周的训练。
 
+###  [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) 搜索 ![GitHub stars](https://img.shields.io/github/stars/quickwit-oss/tantivy?style=social)
+
+网页主要是 `quickwit-oss/tantivy` 仓库的 GitHub 页面，展示了一个名为 Tantivy 的全文搜索引擎库，它受到 Apache Lucene 的启发，并以 Rust 编程语言编写。
+
+**概述**
+
+`quickwit-oss/tantivy` 仓库的 GitHub 页面提供了关于 Tantivy 搜索引擎库的信息和代码。Tantivy 是一个用 Rust 编写的全文搜索引擎库，受到 Apache Lucene 的启发。页面上展示了仓库的基本信息，包括仓库的名称、描述、许可证（MIT）、星标数量（10.8k）、叉子数量（604）、关注者数量（142）、分支数量（191）、标签数量（60）以及最近的提交记录。此外，还可以在页面上进行一些操作，如创建列表、收藏仓库、关注、叉子仓库、查看通知、赞助项目等。页面还列出了仓库中的文件和文件夹，包括源代码、示例、基准测试、文档等，并显示了每个文件或文件夹的最后提交信息和日期。页面上还有一些关于如何贡献代码、报告问题和使用指南的说明。
+
+**特点**
+
+- **Tantivy 是一个功能强大的全文搜索引擎库，适用于 Rust 生态系统。**
+- **它受到 Apache Lucene 的启发，但是使用 Rust 语言重新实现，可能提供了更好的性能和安全性。**
+- **项目活跃，持续更新，有大量的贡献者和社区支持。**
+- **GitHub 页面提供了详细的文档和示例，方便开发者学习和使用 Tantivy。**
+- **用户可以通过 GitHub 的交互功能（如星标、叉子、关注、赞助等）参与到项目中来。**
+- **仓库中的 CHANGELOG.md 文件记录了每次发布的变更，便于用户跟踪项目的进展。**
+- **项目遵循 MIT 许可证，这是一个非常宽松的开源许可证，允许代码的自由使用、复制、修改、合并和发布。**
+- **通过 GitHub 的议题跟踪和拉取请求功能，项目保持开放的贡献和反馈机制。**
+
+
+### [VikParuchuri/surya](https://github.com/VikParuchuri/surya) 抽取 ![GitHub stars](https://img.shields.io/github/stars/VikParuchuri/surya?style=social)
+
+
+
+是一个开源的文档OCR工具包，支持90+种语言的OCR、文本行检测、布局分析和阅读顺序检测。
+
+**概述**
+
+**Surya** 是一个由VikParuchuri开发的文档OCR工具，主要功能包括：
+
+- **OCR识别**: 支持90+种语言的文本识别，性能优于云服务。
+- **文本行检测**: 能够在任何语言中检测文本行。
+- **布局分析**: 识别表格、图片、标题等布局元素。
+- **阅读顺序检测**: 确定文档中的阅读顺序。
+
+Surya 适用于多种类型的文档，包括书籍、报纸、学术论文等，并且提供了一个交互式的Streamlit应用程序，用于测试和演示。此外，Surya 还提供了一系列的命令行工具和Python API，以便开发者能够轻松集成到自己的项目中。
+
+对于商业使用，Surya 提供了两种许可证选项：免费的 `cc-by-nc-sa-4.0` 许可证，适用于研究和个人使用，以及针对年收入超过500万美元或总融资超过500万美元的组织的商业许可证。
+
+Surya 还提供了一个布局分析的API服务，当前处于测试阶段，正在进行速度优化。
+
+安装 Surya 需要Python 3.9+和PyTorch环境，并且提供了详细的安装和使用指南。用户可以通过调整环境变量来优化性能，例如调整OCR和检测模型的批处理大小。
+
+Surya 的性能基准测试表明，它在文本行检测、布局分析和阅读顺序检测方面与其他工具相比具有较高的精度和召回率。Surya 的训练使用了多个NVIDIA A6000 GPU进行，并且依赖于开源AI社区的多个项目。
+
+**特点**
+
+- **开源与免费**: Surya 是一个开源项目，鼓励研究和个人使用，同时为商业使用提供了灵活的许可选项。
+- **多语言支持**: Surya 支持超过90种语言的OCR识别，覆盖了广泛的语言群体。
+- **高性能**: Surya 在OCR识别、文本行检测、布局分析和阅读顺序检测等方面表现出色，且具有与云服务相当甚至更好的性能。
+- **易用性**: 提供了交互式应用程序和详细的文档，使得用户能够轻松安装、使用和集成Surya。
+- **性能优化**: 用户可以通过调整批处理大小等方式，根据自己的硬件配置优化Surya的性能。
+- **社区支持**: Surya 的开发依赖于开源AI社区的贡献，并且鼓励社区参与讨论和改进。
+- **商业模式**: 对于商业用户，Surya 提供了商业许可证选项，以支持项目的持续开发和维护。
+
+### [360AILAB-NLP/360LayoutAnalysis](https://github.com/360AILAB-NLP/360LayoutAnalysis) 抽取 ![GitHub stars](https://img.shields.io/github/stars/360AILAB-NLP/360LayoutAnalysis?style=social)
+
+
+
+
+
+**360AILAB-NLP/360LayoutAnalysis** 是一个开源项目，提供了一系列文档分析模型和数据集，旨在进行文档版式分析，特别是针对论文和研报的细粒度版面分析，以及相应的标签体系。
+
+**概述**
+
+**360LayoutAnalysis** 项目由360 AI研究院开发，旨在通过深度学习技术提高文档版式分析的准确性。该项目针对两个特定场景：论文和研报，提供了轻量化的模型权重和细粒度的数据集标注。项目使用`yolov8`进行训练和预测，能够识别文档中的段落、标题、图片、表格等元素，并区分它们的边界和类别。项目的源码遵循Apache 2.0开源许可证，商用时需要通过邮件联系申请。项目目前还没有发布版本，但已有两名贡献者参与。
+
+**特点**
+
+- **文档版式分析的重要性**：在数字化时代，准确的文档版式分析对于信息提取和文档理解至关重要。
+- **深度学习在文档版式分析中的应用**：深度学习技术通过训练数据集，提高了对文档结构理解的能力。
+- **数据集标注的重要性**：精细化的标注对于提升模型性能至关重要，尤其是对于段落的标注。
+- **论文和研报场景的特殊性**：在论文和研报的版式分析中，对段落和其他布局元素的细粒度识别和区分是关键。
+- **模型的优异性能**：开源的模型在封闭测试集上表现出色，能够准确识别和区分文档中的不同元素。
+- **开源许可和商业使用**：项目源码和模型开源，但商业使用需要通过邮件申请，并遵守《360LayoutAnalysis模型开源模型许可证》。
 
 ## 算法
 
